@@ -1,0 +1,9 @@
+Building E-Gold
+
+See doc/readme-qt.rst for instructions on building E-Gold QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of E-Gold.
+
+See doc/build-*.txt for instructions on building E-Goldd,
+the intended-for-services, no-graphical-interface, reference
+implementation of E-Gold.

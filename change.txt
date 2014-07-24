@@ -1,0 +1,38 @@
+extern bool fTestNet;
+static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
+{
+    return testnet ? 12708 : 22708;
+}
+
+static inline unsigned short GetDefaultRPCPort()
+{
+    return GetBoolArg("-testnet", false) ? 12709 : 22709;
+}
+
+GetProofOfWorkReward
+
+LoadBlockIndex
+
+
+        if (pblock->IsProofOfWork())
+            pblock->vtx[0].vout[0].nValue = GetProofOfWorkReward(pindexPrev->nHeight+1, nFees, pindexPrev->GetBlockHash());
+
+
+
+    /** Number of confirmation needed for transaction */
+    static const int NumConfirmations = 3;
+
+
+
+class CBitcoinAddress : public CBase58Data
+{
+public:
+    enum
+    {
+        PUBKEY_ADDRESS = 29,  // E-Gold: address begin with 'S'
+        SCRIPT_ADDRESS = 8,
+        PUBKEY_ADDRESS_TEST = 111,
+        SCRIPT_ADDRESS_TEST = 196,
+    };
+
+

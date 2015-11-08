@@ -14,7 +14,6 @@
 #include <vector>
 
 #include <QClipboard>
-#include <QPainter>
 
 SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
     QDialog(parent),
@@ -25,10 +24,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a valid E-Gold address"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a E-Gold address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a valid E-Gold address"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a E-Gold address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter E-Gold signature"));
 #endif
 
@@ -273,11 +272,3 @@ bool SignVerifyMessageDialog::eventFilter(QObject *object, QEvent *event)
     }
     return QDialog::eventFilter(object, event);
 }
-
-void SignVerifyMessageDialog::paintEvent(QPaintEvent* evt) {
-  QStyleOption opt;
-  opt.init(this);
-  QPainter p(this);
-  style()->drawPrimitive(QStyle::PE_Widget, &opt, &p, this);
-}
-

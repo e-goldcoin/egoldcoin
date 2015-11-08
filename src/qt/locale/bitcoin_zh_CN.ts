@@ -4,166 +4,166 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="14"/>
+        <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About E-Gold</source>
         <translation>关于E-Gold</translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="53"/>
+        <location line="+39"/>
         <source>&lt;b&gt;E-Gold&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;E-Gold&lt;/b&gt;版本</translation>
+        <translation>&lt;b&gt;E-Gold客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="94"/>
-        <source>
-Copyright © 2009-2012 Bitcoin Developers
-Copyright © 2012 PeerCoin Developers
-Copyright © 2014 E-Gold Developers
-</source>
-        <translation></translation>
+        <location line="+41"/>
+        <source>Copyright © 2009-2014 The Bitcoin developers
+Copyright © 2012-2014 The NovaCoin developers
+Copyright © 2014 The E-Gold developers</source>
+        <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
+版权所有 © 2012-2014 新星币Novacoin开发组
+版权所有 © 2014 E-Gold开发组</translation>
     </message>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="111"/>
+        <location line="+15"/>
         <source>
-This is experimental software. If you don&apos;t treat it as such, you&apos;re likely to put an eye out!
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>版权归开发者所有  © 2014 E-Gold Developers
+        <translation type="obsolete">
+测试版软件
 
-这是一个实验性软件。
+经MIT/X11软件授权发布, 具体参见http://www.opensource.org/licenses/mit-license.php.
 
-Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
+本产品包括由OpenSSL Project (http://www.openssl.org/)开发的OpenSSL工具包 ，由 Eric Young (eay@cryptsoft.com) 撰写的密码学软件以及由 Thomas Bernard 撰写的UPnP软件.</translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="14"/>
+        <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>地址薄</translation>
+        <translation>地址簿</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your E-Gold addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这些是你接受支付的E-Gold地址。当支付时你可以给出不同的地址，以便追踪不同的支付者。</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="36"/>
+        <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>双击以编辑地址或标签</translation>
+        <translation>双击编辑地址或标签</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="63"/>
+        <location line="+27"/>
         <source>Create a new address</source>
         <translation>创建新地址</translation>
     </message>
     <message>
-        <source>&amp;New Address...</source>
-        <translation type="vanished">&amp;新地址...</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="77"/>
+        <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>复制当前选中地址到系统剪贴板</translation>
+        <translation>复制当前选中的地址到系统剪贴板</translation>
     </message>
     <message>
-        <source>&amp;Copy to Clipboard</source>
-        <translation type="vanished">&amp;复制到剪贴板</translation>
+        <location line="-11"/>
+        <source>&amp;New Address</source>
+        <translation>新建地址(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="91"/>
+        <location line="-46"/>
+        <source>These are your E-Gold addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>这是您用来接收支付的E-Gold地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
+    </message>
+    <message>
+        <location line="+60"/>
+        <source>&amp;Copy Address</source>
+        <translation>复制地址(&amp;C)</translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>显示二维码(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified E-Gold address</source>
-        <translation>验证消息以便证明它是被某个E-Gold地址签名的</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="102"/>
+        <location line="+11"/>
         <source>Sign a message to prove you own a E-Gold address</source>
-        <translation>发送签名消息以证明您是该E-Gold地址的拥有者</translation>
+        <translation>对信息进行签名以证明您对该E-Gold地址的所有权</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="66"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;新地址</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="105"/>
+        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>发送签名消息</translation>
+        <translation>签名(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="119"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;验证消息</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="130"/>
+        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>从列表中删除当前选中地址。只有发送地址可以被删除。</translation>
+        <translation>从列表中删除选中的地址</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="133"/>
+        <location line="-14"/>
+        <source>Verify a message to ensure it was signed with a specified E-Gold address</source>
+        <translation>验证信息以保证其经过指定E-Gold地址的签名</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Verify Message</source>
+        <translation>验证消息(&amp;V)</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;删除</translation>
+        <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="80"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;复制地址</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="66"/>
+        <location filename="../addressbookpage.cpp" line="+65"/>
         <source>Copy &amp;Label</source>
-        <translation>复制标签</translation>
+        <translation>复制标签(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="68"/>
+        <location line="+2"/>
         <source>&amp;Edit</source>
         <translation>编辑(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="325"/>
+        <location line="+250"/>
         <source>Export Address Book Data</source>
-        <translation>导出地址薄数据</translation>
+        <translation>导出地址簿数据</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="326"/>
+        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>逗号分隔文件 (*.csv)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="339"/>
+        <location line="+13"/>
         <source>Error exporting</source>
-        <translation>导出错误</translation>
+        <translation>导出时发生错误</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="339"/>
+        <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>无法写入文件 %1。</translation>
+        <translation>无法写入文件 %1 。</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="142"/>
+        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
-        <location filename="../addresstablemodel.cpp" line="142"/>
+        <location line="+0"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
-        <location filename="../addresstablemodel.cpp" line="178"/>
+        <location line="+36"/>
         <source>(no label)</source>
         <translation>(没有标签)</translation>
     </message>
@@ -171,452 +171,501 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="26"/>
+        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>密码对话框</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="47"/>
+        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>输入密码</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="61"/>
+        <location line="+14"/>
         <source>New passphrase</source>
         <translation>新密码</translation>
     </message>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="75"/>
+        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>重复新密码</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>输入钱包的新密码。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10个以上随机字符&lt;/&gt;，或者是&lt;b&gt;8个以上的单词&lt;/b&gt;。</translation>
+        <location line="+33"/>
+        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <translation>在系统允许的情况下用于防止sendmoney欺诈，并未提供真正的安全防护措施。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="34"/>
+        <location line="+3"/>
+        <source>For staking only</source>
+        <translation>仅用于权益增值</translation>
+    </message>
+    <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation type="obsolete">输入钱包的新密码。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10个以上随机字符&lt;/&gt;，或者是&lt;b&gt;8个以上的单词&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="+38"/>
         <source>Encrypt wallet</source>
         <translation>加密钱包</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="37"/>
+        <location line="+7"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>此操作需要您首先使用密码解锁该钱包。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="42"/>
+        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>解锁钱包</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="45"/>
+        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>该操作需要您首先使用密码解密钱包。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="50"/>
+        <location line="+5"/>
         <source>Decrypt wallet</source>
         <translation>解密钱包</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="53"/>
+        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>更改密码</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="54"/>
+        <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
         <translation>请输入该钱包的旧密码与新密码。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="100"/>
+        <location line="+45"/>
         <source>Confirm wallet encryption</source>
         <translation>确认加密钱包</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="101"/>
+        <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的货币&lt;/b&gt;！</translation>
+        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的E-Gold将会丢失！</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="101"/>
+        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你确定要加密钱包吗？</translation>
+        <translation>您确定需要为钱包加密吗？</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>E-Gold will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>E-Gold钱包将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的货币还是有可能丢失。</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="116"/>
+        <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要：建议你用刚生成的加密钱包替换以前的钱包备份，为安全考虑，一旦你启用新生成的加密钱包，以前的未加密的钱包备份就无用处了。</translation>
+        <translation>重要提示：您以前备份的钱包文件应该替换成最新生成的加密钱包文件（重新备份）。从安全性上考虑，您以前备份的未加密的钱包文件，在您使用新的加密钱包后将无效，请重新备份。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="169"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>钱包密码修改成功</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="216"/>
-        <location filename="../askpassphrasedialog.cpp" line="240"/>
+        <location line="+103"/>
+        <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告：大写锁定键CapsLock处于开启状态</translation>
+        <translation>警告：大写锁定键处于打开状态！</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="110"/>
-        <location filename="../askpassphrasedialog.cpp" line="168"/>
+        <location line="-133"/>
+        <location line="+60"/>
         <source>Wallet encrypted</source>
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="125"/>
-        <location filename="../askpassphrasedialog.cpp" line="132"/>
-        <location filename="../askpassphrasedialog.cpp" line="174"/>
-        <location filename="../askpassphrasedialog.cpp" line="180"/>
+        <location line="-140"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+82"/>
+        <source>E-Gold will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>E-Gold客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <location line="+7"/>
+        <location line="+44"/>
+        <location line="+6"/>
         <source>Wallet encryption failed</source>
         <translation>钱包加密失败</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="126"/>
+        <location line="-56"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>由于一个本地错误，加密钱包的操作已经失败。您的钱包没有被加密。</translation>
+        <translation>由于一个本地错误，加密钱包的操作已经失败。您的钱包没能被加密。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="133"/>
-        <location filename="../askpassphrasedialog.cpp" line="181"/>
+        <location line="+7"/>
+        <location line="+50"/>
         <source>The supplied passphrases do not match.</source>
         <translation>密码不匹配。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="144"/>
+        <location line="-38"/>
         <source>Wallet unlock failed</source>
         <translation>钱包解锁失败</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="145"/>
-        <location filename="../askpassphrasedialog.cpp" line="156"/>
-        <location filename="../askpassphrasedialog.cpp" line="175"/>
+        <location line="+1"/>
+        <location line="+12"/>
+        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>用于解密钱包的密码不正确。</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="155"/>
+        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>钱包解密失败。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>修改钱包密码成功。</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoin.cpp" line="111"/>
-        <source>A fatal error occurred. E-Gold can no longer continue safely and will quit.</source>
-        <translation>产生一个严重错误，E-Gold不能正常运行，将马上退出。</translation>
+        <location filename="../bitcoingui.cpp" line="+282"/>
+        <source>Sign &amp;message...</source>
+        <translation>消息签名(&amp;M)...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="81"/>
-        <source>E-Gold</source>
-        <translation>E-Gold</translation>
+        <location line="+242"/>
+        <source>Synchronizing with network...</source>
+        <translation>正在与网络同步...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="81"/>
-        <source>Wallet</source>
-        <translation>钱包</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="206"/>
+        <location line="-308"/>
         <source>&amp;Overview</source>
-        <translation>&amp;概况</translation>
+        <translation>概况(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="207"/>
+        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>显示钱包概况</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="212"/>
-        <source>&amp;Send coins</source>
-        <translation>发送货币</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="213"/>
-        <source>Send coins to a E-Gold address</source>
-        <translation>向一个E-Gold地址发送货币</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="218"/>
-        <source>&amp;Receive coins</source>
-        <translation>&amp;接收货币</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="219"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>显示接收支付的地址列表</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="224"/>
+        <location line="+17"/>
         <source>&amp;Transactions</source>
-        <translation>交易(&amp;T)</translation>
+        <translation>交易记录(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="225"/>
+        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>浏览交易历史</translation>
+        <translation>查看交易历史</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="230"/>
+        <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>&amp;地址薄</translation>
+        <translation>地址簿(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="231"/>
+        <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>编辑存贮的地址列表和标签</translation>
+        <translation>管理已储存的地址和标签</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="247"/>
+        <location line="-13"/>
+        <source>&amp;Receive coins</source>
+        <translation>接收E-Gold(&amp;R)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>显示用于接收支付的地址列表</translation>
+    </message>
+    <message>
+        <location line="-7"/>
+        <source>&amp;Send coins</source>
+        <translation>发送E-Gold(&amp;S)</translation>
+    </message>
+    <message>
+        <location line="+35"/>
         <source>E&amp;xit</source>
-        <translation>退出(&amp;T)</translation>
+        <translation>退出(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="248"/>
+        <location line="+1"/>
         <source>Quit application</source>
         <translation>退出程序</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="251"/>
-        <source>&amp;About E-Gold</source>
-        <translation>关于E-Gold</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="252"/>
+        <location line="+4"/>
         <source>Show information about E-Gold</source>
-        <translation>显示E-Gold的相关信息</translation>
+        <translation>显示关于E-Gold的信息</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="254"/>
+        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>关于 &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="255"/>
+        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>显示Qt相关信息</translation>
+        <translation>显示 Qt 相关信息</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="257"/>
+        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>选项(&amp;T)...</translation>
+        <translation>选项(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="258"/>
-        <source>Modify configuration options for E-Gold</source>
-        <translation>修改配置选项</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="260"/>
-        <source>&amp;Show / Hide</source>
-        <translation>显示(&amp;S)/隐藏</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="261"/>
+        <location line="+4"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>加密钱包(&amp;E)...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Encrypt or decrypt wallet</source>
-        <translation>加密或解密钱包</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="264"/>
+        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>备份钱包(&amp;B)</translation>
+        <translation>备份钱包(&amp;B)...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="265"/>
-        <source>Backup wallet to another location</source>
-        <translation>把钱包备份到其他文件夹</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="266"/>
+        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>修改密码(&amp;C)</translation>
+        <translation>更改密码(&amp;C)...</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+250"/>
+        <source>~%n block(s) remaining</source>
+        <translation>
+            <numerusform>~%n 个区块未完成</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="267"/>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>修改加于钱包加密的密码</translation>
+        <location line="+6"/>
+        <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
+        <translation>交易记录已下载%3% (%1 / %2 个区块)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="268"/>
-        <source>Sign &amp;message...</source>
-        <translation>签名消息(&amp;m)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="269"/>
-        <source>&amp;Verify message...</source>
-        <translation>验证消息(&amp;V)...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="271"/>
+        <location line="-247"/>
         <source>&amp;Export...</source>
-        <translation>导出(&amp;E)...</translation>
+        <translation>导出(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="272"/>
+        <location line="-62"/>
+        <source>Send coins to a E-Gold address</source>
+        <translation>向指定的地址发送E-Gold</translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Modify configuration options for E-Gold</source>
+        <translation>更改设置选项</translation>
+    </message>
+    <message>
+        <location line="+18"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>把当前列表导出到文件</translation>
+        <translation>导出当前标签页的数据</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="273"/>
+        <location line="-14"/>
+        <source>Encrypt or decrypt wallet</source>
+        <translation>加密/解密钱包</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Backup wallet to another location</source>
+        <translation>备份钱包到其他文件夹</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>更改钱包加密口令</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>&amp;Debug window</source>
         <translation>调试窗口(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="274"/>
+        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>打开和调试和诊断控制台</translation>
+        <translation>打开调试和诊断控制台</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="299"/>
+        <location line="-5"/>
+        <source>&amp;Verify message...</source>
+        <translation>验证消息(&amp;V)...</translation>
+    </message>
+    <message>
+        <location line="-200"/>
+        <source>E-Gold</source>
+        <translation>E-Gold</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Wallet</source>
+        <translation>钱包</translation>
+    </message>
+    <message>
+        <location line="+178"/>
+        <source>&amp;About E-Gold</source>
+        <translation>关于E-Gold(&amp;A)</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>&amp;Show / Hide</source>
+        <translation>显示 / 隐藏(&amp;S)</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Unlock wallet</source>
+        <translation>解锁钱包</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>&amp;Lock Wallet</source>
+        <translation>锁定钱包(&amp;L)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lock wallet</source>
+        <translation>锁定钱包</translation>
+    </message>
+    <message>
+        <location line="+34"/>
         <source>&amp;File</source>
         <translation>文件(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="307"/>
+        <location line="+8"/>
         <source>&amp;Settings</source>
         <translation>设置(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="313"/>
+        <location line="+8"/>
         <source>&amp;Help</source>
         <translation>帮助(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="325"/>
+        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>分页工具栏</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="333"/>
+        <location line="+8"/>
         <source>Actions toolbar</source>
-        <translation>动作工具栏</translation>
+        <translation>工具栏</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="346"/>
-        <location filename="../bitcoingui.cpp" line="355"/>
+        <location line="+13"/>
+        <location line="+9"/>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>[测试网络]</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="355"/>
-        <location filename="../bitcoingui.cpp" line="415"/>
+        <location line="+0"/>
+        <location line="+60"/>
         <source>E-Gold client</source>
-        <translation>E-Gold-qt</translation>
+        <translation>E-Gold客户端</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="485"/>
+        <location line="+70"/>
         <source>%n active connection(s) to E-Gold network</source>
         <translation>
-            <numerusform>%n 个到网络的活动连接</numerusform>
+            <numerusform>与E-Gold网络建立了 %n 个连接</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="509"/>
-        <source>Synchronizing with network...</source>
-        <translation>正在与网络同步...</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="511"/>
-        <source>~%n block(s) remaining</source>
-        <translation>
-            <numerusform>剩余 ~%n 个区块</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="517"/>
-        <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
-        <translation>%1 / %2 个交易历史的区块已下载 (%3% 已完成)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoingui.cpp" line="525"/>
+        <location line="+40"/>
         <source>Downloaded %1 blocks of transaction history.</source>
-        <translation>%1 个交易历史的区块已下载</translation>
+        <translation>已下载 %1 个区块的交易记录</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="536"/>
-        <source>Current difficulty is %1.</source>
-        <translation>当前难度是 %1.</translation>
+        <location line="+435"/>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>权益增值中 &lt;br&gt;您的权重为 %1 &lt;br&gt;网络总权重为 %2&lt;br&gt;预计将在 %3 之后获得收益</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Not staking because wallet is locked</source>
+        <translation>未进行权益增值，因为钱包已锁定</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Not staking because wallet is offline</source>
+        <translation>未进行权益增值，因为钱包处于离线状态</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Not staking because wallet is syncing</source>
+        <translation>未进行权益增值，因为钱包正在同步</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Not staking because you don&apos;t have mature coins</source>
+        <translation>未进行权益增值，因为钱包中没有成熟的E-Gold</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="549"/>
+        <location line="-425"/>
         <source>%n second(s) ago</source>
         <translation>
             <numerusform>%n 秒前</numerusform>
         </translation>
     </message>
+    <message>
+        <location line="-284"/>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>解锁钱包(&amp;U)</translation>
+    </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="553"/>
+        <location line="+288"/>
         <source>%n minute(s) ago</source>
         <translation>
             <numerusform>%n 分钟前</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="557"/>
+        <location line="+4"/>
         <source>%n hour(s) ago</source>
         <translation>
             <numerusform>%n 小时前</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="561"/>
+        <location line="+4"/>
         <source>%n day(s) ago</source>
         <translation>
             <numerusform>%n 天前</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="567"/>
+        <location line="+6"/>
         <source>Up to date</source>
-        <translation>最新状态</translation>
+        <translation>已是最新</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="574"/>
+        <location line="+7"/>
         <source>Catching up...</source>
         <translation>更新中...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="590"/>
+        <location line="+16"/>
         <source>Last received block was generated %1.</source>
-        <translation>最新收到的区块产生于 %1。</translation>
+        <translation>最近生成的区块接收于%1</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="649"/>
+        <location line="+59"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>该笔交易的数据量超限.您可以选择支付 %1 交易费， 交易费将支付给处理该笔交易的网络节点，有助于维持网络的运行.  您愿意支付交易费用吗？</translation>
+        <translation>该笔交易数据量太大，需支付%1手续费给执行该笔交易的网络结点。您愿意支付吗？</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="654"/>
+        <location line="+5"/>
         <source>Confirm transaction fee</source>
-        <translation>确认交易费</translation>
+        <translation>手续费确认</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="681"/>
+        <location line="+27"/>
         <source>Sent transaction</source>
-        <translation>发出交易</translation>
+        <translation>发送交易</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="682"/>
+        <location line="+1"/>
         <source>Incoming transaction</source>
         <translation>流入交易</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="683"/>
+        <location line="+1"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -629,52 +678,90 @@ Address: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="783"/>
-        <location filename="../bitcoingui.cpp" line="798"/>
+        <location line="+100"/>
+        <location line="+15"/>
         <source>URI handling</source>
         <translation>URI处理</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="783"/>
-        <location filename="../bitcoingui.cpp" line="798"/>
+        <location line="-15"/>
+        <location line="+15"/>
         <source>URI can not be parsed! This can be caused by an invalid E-Gold address or malformed URI parameters.</source>
-        <translation>URI无法解析，不是一个合法的E-Gold地址，或者URI参数错误。</translation>
+        <translation>无法解析URI：无效的E-Gold地址或错误的URI参数。</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="814"/>
+        <location line="+18"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="822"/>
+        <location line="+10"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="845"/>
+        <location line="+25"/>
         <source>Backup Wallet</source>
         <translation>备份钱包</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="845"/>
+        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>钱包文件(*.dat)</translation>
+        <translation>钱包数据文件(*.dat)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="848"/>
+        <location line="+3"/>
         <source>Backup Failed</source>
         <translation>备份失败</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="848"/>
+        <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>备份钱包到其它文件夹失败.</translation>
+        <translation>试图将钱包地址保存到新位置时出现错误</translation>
+    </message>
+    <message numerus="yes">
+        <location line="+91"/>
+        <source>%n second(s)</source>
+        <translation>
+            <numerusform>%n秒</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n minute(s)</source>
+        <translation>
+            <numerusform>%n 分钟</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n hour(s)</source>
+        <translation>
+            <numerusform>%n 小时</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location line="+4"/>
+        <source>%n day(s)</source>
+        <translation>
+            <numerusform>%n 天</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Not staking</source>
+        <translation>未进行权益增值</translation>
+    </message>
+    <message>
+        <location filename="../bitcoin.cpp" line="+109"/>
+        <source>A fatal error occurred. E-Gold can no longer continue safely and will quit.</source>
+        <translation>发生严重错误，E-Gold客户端即将关闭。</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="87"/>
+        <location filename="../clientmodel.cpp" line="+98"/>
         <source>Network Alert</source>
         <translation>网络警报</translation>
     </message>
@@ -682,599 +769,583 @@ Address: %4
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="14"/>
+        <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>货币控制</translation>
+        <translation>E-Gold控制</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="45"/>
+        <location line="+31"/>
         <source>Quantity:</source>
         <translation>总量：</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="64"/>
-        <location filename="../forms/coincontroldialog.ui" line="96"/>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <location filename="../forms/coincontroldialog.ui" line="77"/>
+        <location line="+32"/>
         <source>Bytes:</source>
-        <translation>字节:</translation>
+        <translation>字节：</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="125"/>
+        <location line="+48"/>
         <source>Amount:</source>
         <translation>金额：</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="144"/>
-        <location filename="../forms/coincontroldialog.ui" line="224"/>
-        <location filename="../forms/coincontroldialog.ui" line="310"/>
-        <location filename="../forms/coincontroldialog.ui" line="348"/>
-        <source>0.00 MINT</source>
-        <translation>0.00 铸币</translation>
-    </message>
-    <message>
-        <location filename="../forms/coincontroldialog.ui" line="157"/>
+        <location line="+32"/>
         <source>Priority:</source>
         <translation>优先级：</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="205"/>
+        <location line="+48"/>
         <source>Fee:</source>
-        <translation>费用:</translation>
+        <translation>费用：</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="240"/>
+        <location line="+35"/>
         <source>Low Output:</source>
-        <translation>低输出:</translation>
+        <translation>低输出</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="262"/>
-        <location filename="../coincontroldialog.cpp" line="555"/>
+        <location filename="../coincontroldialog.cpp" line="+551"/>
         <source>no</source>
         <translation>否</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="291"/>
+        <location filename="../forms/coincontroldialog.ui" line="+51"/>
         <source>After Fee:</source>
-        <translation>之后的费用:</translation>
+        <translation>加上交易费用后:</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="326"/>
+        <location line="+35"/>
         <source>Change:</source>
-        <translation>找零:</translation>
+        <translation>变更 : </translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="395"/>
+        <location line="+69"/>
         <source>(un)select all</source>
         <translation>(不)全选</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="408"/>
+        <location line="+13"/>
         <source>Tree mode</source>
         <translation>树状模式</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="424"/>
+        <location line="+16"/>
         <source>List mode</source>
         <translation>列表模式</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="469"/>
+        <location line="+45"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="474"/>
+        <location line="+5"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="479"/>
+        <location line="+5"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="484"/>
+        <location line="+5"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="489"/>
+        <location line="+5"/>
         <source>Confirmations</source>
         <translation>确认</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="492"/>
+        <location line="+3"/>
         <source>Confirmed</source>
         <translation>已确认</translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="497"/>
+        <location line="+5"/>
         <source>Priority</source>
         <translation>优先级</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="36"/>
+        <location filename="../coincontroldialog.cpp" line="-515"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="37"/>
+        <location line="+1"/>
         <source>Copy label</source>
         <translation>复制标签</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="38"/>
-        <location filename="../coincontroldialog.cpp" line="64"/>
+        <location line="+1"/>
+        <location line="+26"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="39"/>
+        <location line="-25"/>
         <source>Copy transaction ID</source>
         <translation>复制交易编号</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="63"/>
+        <location line="+24"/>
         <source>Copy quantity</source>
-        <translation>复制数量</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="65"/>
+        <location line="+2"/>
         <source>Copy fee</source>
-        <translation>复制费用</translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="66"/>
+        <location line="+1"/>
         <source>Copy after fee</source>
-        <translation>复制之后费用</translation>
+        <translation>复制含交易费的金额</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="67"/>
+        <location line="+1"/>
         <source>Copy bytes</source>
         <translation>复制字节</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="68"/>
+        <location line="+1"/>
         <source>Copy priority</source>
         <translation>复制优先级</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="69"/>
+        <location line="+1"/>
         <source>Copy low output</source>
         <translation>复制低输出</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="70"/>
+        <location line="+1"/>
         <source>Copy change</source>
-        <translation>复制找零</translation>
+        <translation>复制零钱</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="391"/>
+        <location line="+317"/>
         <source>highest</source>
-        <translation>最高级</translation>
+        <translation>最高</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="392"/>
+        <location line="+1"/>
         <source>high</source>
-        <translation>次高级</translation>
+        <translation>高</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="393"/>
+        <location line="+1"/>
         <source>medium-high</source>
-        <translation>中高级</translation>
+        <translation>中高</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="394"/>
+        <location line="+1"/>
         <source>medium</source>
-        <translation>中等级</translation>
+        <translation>中等</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="398"/>
+        <location line="+4"/>
         <source>low-medium</source>
-        <translation>中低级</translation>
+        <translation>中低</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="399"/>
+        <location line="+1"/>
         <source>low</source>
-        <translation>次低级</translation>
+        <translation>低</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="400"/>
+        <location line="+1"/>
         <source>lowest</source>
-        <translation>最低级</translation>
+        <translation>最低</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="555"/>
+        <location line="+155"/>
         <source>DUST</source>
-        <translation>尘</translation>
+        <translation>DUST</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="555"/>
+        <location line="+0"/>
         <source>yes</source>
         <translation>是</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="565"/>
+        <location line="+10"/>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
 
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation>如果交易数量大于1000字节，该标签变红。
-
- 这就意味着至少需要每k字节 %1 的费用。
-
- 会根据每个输入的字节数变化而变化。</translation>
+        <translation>交易数据量超过10000字节时，该标签变为红色。
+此时每kb数据量将会收取 %1 的手续费。
+可能有+/-1字节的误差。</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="566"/>
+        <location line="+1"/>
         <source>Transactions with higher priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
  This means a fee of at least %1 per kb is required.</source>
-        <translation>高优先级的交易更有可能被打包到区块中。
-
-如果优先级低于&quot;中等&quot;这个标签会变红，
-
-这就意味着至少需要每k字节 %1 的费用。</translation>
+        <translation>优先度较高的交易有更高可能进入到区块中。
+当优先度为中级以下时，该标签变为红色。
+此时需要收取每kb %1 的手续费。</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="567"/>
+        <location line="+1"/>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
 
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation>如果接收者接到的金额低于 %1 ,这个标签会变红.
-
- 这就意味着至少需要 %2 的费用。
-
- 金额小于最小转发费用的0.546倍的交易，会被显示为 尘交易.</translation>
+        <translation>如果收款人所收款项少于 %1，该标签变为红色。
+此时需收取 %2 的手续费。
+低于该手续费的0.546倍的款项将被显示为DUST。</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="568"/>
+        <location line="+1"/>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation>如果找零低于 %1 , 这个标签会变红.
-
- 这就意味着至少需要 %2 的费用。</translation>
+        <translation>如果零钱少于 %1，该标签变为红色。
+此时需收取 %2 的手续费。</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="605"/>
-        <location filename="../coincontroldialog.cpp" line="671"/>
+        <location line="+37"/>
+        <location line="+66"/>
         <source>(no label)</source>
-        <translation>(无标签)</translation>
+        <translation>(没有标签)</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="662"/>
+        <location line="-9"/>
         <source>change from %1 (%2)</source>
-        <translation>从 %1 (%2)找零</translation>
+        <translation>来自%1的零钱 (%2)</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="663"/>
+        <location line="+1"/>
         <source>(change)</source>
-        <translation>(找零)</translation>
+        <translation>(零钱)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="14"/>
+        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>编辑地址</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="25"/>
+        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>标签(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="35"/>
+        <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>与此地址相关的标签项</translation>
+        <translation>地址簿内该项目对应的标签</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="42"/>
+        <location line="+7"/>
         <source>&amp;Address</source>
         <translation>地址(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="52"/>
+        <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>该地址已与地址簿中的条目关联，只能被发送地址修改。</translation>
+        <translation>地址簿内该项目对应的地址。只有“收款人地址”分类下的地址可以修改。</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="20"/>
+        <location filename="../editaddressdialog.cpp" line="+20"/>
         <source>New receiving address</source>
-        <translation>新接收地址</translation>
+        <translation>新建接收地址</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="24"/>
+        <location line="+4"/>
         <source>New sending address</source>
-        <translation>新发送地址</translation>
+        <translation>新建发送地址</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="27"/>
+        <location line="+3"/>
         <source>Edit receiving address</source>
         <translation>编辑接收地址</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="31"/>
+        <location line="+4"/>
         <source>Edit sending address</source>
         <translation>编辑发送地址</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="91"/>
+        <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>输入的地址 &quot;%1&quot; 已经存在于地址薄中。</translation>
+        <translation>输入的地址“%1”已经存在于地址簿中。</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="96"/>
+        <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid E-Gold address.</source>
-        <translation>输入的地址  &quot;%1&quot; 不是一个有效的E-Gold地址</translation>
+        <translation>“%1” 不是有效的E-Gold地址。</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="101"/>
+        <location line="+10"/>
         <source>Could not unlock wallet.</source>
         <translation>无法解锁钱包</translation>
     </message>
     <message>
-        <location filename="../editaddressdialog.cpp" line="106"/>
+        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>新密钥创建失败.</translation>
+        <translation>新的密钥生成失败。</translation>
     </message>
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
     <message>
-        <location filename="../guiutil.cpp" line="438"/>
-        <location filename="../guiutil.cpp" line="450"/>
+        <location filename="../guiutil.cpp" line="+424"/>
+        <location line="+12"/>
         <source>E-Gold-Qt</source>
-        <translation>E-Gold-Qt</translation>
+        <translation>E-Gold客户端E-Gold-Qt</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="438"/>
+        <location line="-12"/>
         <source>version</source>
         <translation>版本</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="440"/>
+        <location line="+2"/>
         <source>Usage:</source>
-        <translation>用法:</translation>
+        <translation>使用</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="441"/>
+        <location line="+1"/>
         <source>command-line options</source>
         <translation>命令行选项</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="445"/>
+        <location line="+4"/>
         <source>UI options</source>
-        <translation>UI选项</translation>
+        <translation>用户界面选项</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="446"/>
+        <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>设置语言, 例如“zh-TW”（默认为系统语言）</translation>
+        <translation>设定语言，例如 “de_DE&quot; (默认语言为本地操作系统语言)</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="447"/>
+        <location line="+1"/>
         <source>Start minimized</source>
         <translation>启动时最小化</translation>
     </message>
     <message>
-        <location filename="../guiutil.cpp" line="448"/>
+        <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>启动时显示启动画面 (默认: 1)</translation>
+        <translation>登录时显示Logo界面 (默认开启)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="14"/>
+        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>选项</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="30"/>
+        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>主要(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="36"/>
+        <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>可选的每 kB 交易费，这有助于您的交易被更快的处理。大多数交易都是 1 kB。</translation>
+        <translation>支付可选的交易手续费以加速交易(每kB)。大多数交易的数据量为1kB。推荐额0.01。</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="51"/>
+        <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
         <translation>支付交易费用(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="82"/>
+        <location line="+31"/>
+        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
+        <translation>保留金额不参与权益累积，可以随时使用。</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Reserve</source>
+        <translation>保留</translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Automatically start E-Gold after logging in to the system.</source>
-        <translation>登录系统后自动启动E-Gold</translation>
+        <translation>开机自动启动E-Gold客户端</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="85"/>
+        <location line="+3"/>
         <source>&amp;Start E-Gold on system login</source>
-        <translation>系统启动时运行(&amp;S)</translation>
+        <translation>开机时自动启动E-Gold客户端(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="92"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation>关闭时分离区块和地址数据库，这意味着它们能被移动到另一个数据目录，但是会降低关闭速度，钱包总是被分离的。</translation>
+        <translation type="obsolete">关机时断开区块和地址数据连接使得它们可以被移动到其他目录。这样做会使关机速度变慢。钱包数据总是断开存储的。</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="95"/>
         <source>&amp;Detach databases at shutdown</source>
-        <translation>关闭时分离数据库</translation>
+        <translation type="obsolete">关机时断开区块和地址数据库连接(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="116"/>
+        <location line="+21"/>
         <source>&amp;Network</source>
         <translation>网络(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="122"/>
+        <location line="+6"/>
         <source>Automatically open the E-Gold client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器上打开E-Gold端口，当你的路由器支持UPnP并且打开时才管用。</translation>
+        <translation>路由器自动打开E-Gold客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="125"/>
+        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>使用&amp;UPnP要映射的端口</translation>
+        <translation>使用 &amp;UPnP 映射端口</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="132"/>
+        <location line="+7"/>
         <source>Connect to the E-Gold network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>通过 SOCKS 代理连接到网络。</translation>
+        <translation>经SOCKS代理连接到E-Gold网络(例如使用Tor)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="135"/>
+        <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>通过 SOCKS 代理连接(&amp;C):</translation>
+        <translation>经SOCKS代理连接(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="144"/>
+        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>代理IP(&amp;I)</translation>
+        <translation>代理服务器 &amp;IP：</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="163"/>
+        <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>代理IP地址(如：127.0.0.1)</translation>
+        <translation>代理地址(如：127.0.0.1)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="170"/>
+        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>端口(&amp;P):</translation>
+        <translation>端口(&amp;P)：</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="189"/>
+        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>代理端口（例如 9050）</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="196"/>
+        <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS 版本(&amp;V)</translation>
+        <translation>Socks 版本(&amp;V)：</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="209"/>
+        <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>代理服务器的SOCKS版本号(例如：5)</translation>
+        <translation>Socks 代理版本（例如 5）</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="245"/>
+        <location line="+36"/>
         <source>&amp;Window</source>
         <translation>窗口(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="251"/>
+        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>最小化窗口后仅显示托盘图标</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="254"/>
+        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
         <translation>最小化到托盘(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="261"/>
+        <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
         <translation>当窗口关闭时程序最小化而不是退出。当使用该选项时，程序只能通过在菜单中选择退出来关闭</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="264"/>
+        <location line="+3"/>
         <source>M&amp;inimize on close</source>
         <translation>单击关闭按钮最小化(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="285"/>
+        <location line="+21"/>
         <source>&amp;Display</source>
         <translation>显示(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="293"/>
+        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>用户界面语言(&amp;L):</translation>
+        <translation>用户界面语言(&amp;L)：</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="306"/>
+        <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting E-Gold.</source>
-        <translation>在这里设置用户界面的语言。设置将在客户端重启后生效。</translation>
+        <translation>在此设置用户界面语言。重启E-Gold客户端后设置生效。</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="317"/>
+        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>金额单位(&amp;U)：</translation>
+        <translation>E-Gold金额单位(&amp;U)：</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="330"/>
+        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择单位。</translation>
+        <translation>选择E-Gold单位。</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="339"/>
         <source>Whether to show E-Gold addresses in the transaction list or not.</source>
-        <translation>是否需要在交易清单中显示地址。</translation>
+        <translation type="obsolete">是否在交易列表中显示E-Gold地址</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="342"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>在交易清单中显示地址(&amp;D)</translation>
+        <translation type="obsolete">在交易清单中显示E-Gold地址(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="349"/>
+        <location line="+9"/>
         <source>Whether to show coin control features or not.</source>
-        <translation>是否显示货币控制功能</translation>
+        <translation>是否需要交易源地址控制功能。</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="352"/>
+        <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>显示货币控制功能(非专家不建议使用!)</translation>
+        <translation>显示E-Gold控制选项(仅用于专家用户)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="423"/>
+        <location line="+71"/>
         <source>&amp;OK</source>
         <translation>确定(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="430"/>
+        <location line="+7"/>
         <source>&amp;Cancel</source>
         <translation>取消(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="440"/>
+        <location line="+10"/>
         <source>&amp;Apply</source>
         <translation>应用(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="57"/>
+        <location filename="../optionsdialog.cpp" line="+55"/>
         <source>default</source>
         <translation>默认</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="205"/>
-        <location filename="../optionsdialog.cpp" line="214"/>
+        <location line="+147"/>
+        <location line="+9"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="205"/>
-        <location filename="../optionsdialog.cpp" line="214"/>
+        <location line="-9"/>
+        <location line="+9"/>
         <source>This setting will take effect after restarting E-Gold.</source>
-        <translation>更改生效需要重启客户端。</translation>
+        <translation>重启客户端后设置生效</translation>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="243"/>
+        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>提供的代理服务器地址无效。</translation>
     </message>
@@ -1282,328 +1353,290 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="14"/>
+        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>表单</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="89"/>
-        <source>Balance:</source>
-        <translation>帐户金额:</translation>
+        <location line="+33"/>
+        <location line="+231"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the E-Gold network after a connection is established, but this process has not completed yet.</source>
+        <translation>所显示的信息尚未更新，建立连接后钱包客户端会自动和网络进行同步，但目前该过程尚未完成。</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="202"/>
-        <source>Number of transactions:</source>
-        <translation>交易数量:</translation>
+        <location line="+33"/>
+        <location line="+231"/>
+        <source>Make sure to backup your wallet regularly in a safe place! For example an USB Stick, SDCard, external Harddrive or another PC.</source>
+        <translation>请务必定期在安全处备份您的钱包！例如USB, SD卡, 外接硬盘或另一台个人电脑</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="147"/>
+        <location line="-160"/>
+        <source>Stake:</source>
+        <translation>用于权益累积：</translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>未确认:</translation>
+        <translation>未确认：</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="271"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近交易&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="105"/>
-        <source>Your current balance</source>
-        <translation>你的当前帐户余额</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="40"/>
+        <location line="-107"/>
         <source>Wallet</source>
         <translation>钱包</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="47"/>
-        <location filename="../forms/overviewpage.ui" line="278"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the E-Gold network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息已经过期，当连接成功后，钱包将自动与网络同步，这个过程目前还未完成</translation>
+        <location line="+49"/>
+        <source>Spendable:</source>
+        <translation>可用金额：</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="118"/>
-        <source>Stake:</source>
-        <translation>权益收入:</translation>
+        <location line="+16"/>
+        <source>Your current spendable balance</source>
+        <translation>您当前可使用的余额</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="134"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>所有权益收入的货币，还未计入当前的帐户。</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="163"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>尚未确认的交易总额，未计入当前余额</translation>
-    </message>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="176"/>
+        <location line="+71"/>
         <source>Immature:</source>
         <translation>未成熟的：</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="189"/>
+        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
         <translation>尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="209"/>
-        <source>Total number of transactions in wallet</source>
-        <translation>钱包中交易数量</translation>
+        <location line="+20"/>
+        <source>Total:</source>
+        <translation>总额：</translation>
     </message>
     <message>
-        <location filename="../forms/overviewpage.ui" line="344"/>
-        <source>Unlock Wallet</source>
-        <translation>解锁钱包</translation>
+        <location line="+16"/>
+        <source>Your current total balance</source>
+        <translation>您当前的总余额</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="120"/>
-        <location filename="../overviewpage.cpp" line="121"/>
+        <location line="+46"/>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;最近交易记录&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location line="-108"/>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>尚未确认的交易总额（不计入目前钱包余额）</translation>
+    </message>
+    <message>
+        <location line="-29"/>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation>正在进行权益累积的货币总额（不计入目前钱包余额）</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="+113"/>
+        <location line="+1"/>
         <source>out of sync</source>
-        <translation>数据同步中</translation>
-    </message>
-</context>
-<context>
-    <name>PPCoinGUI</name>
-    <message numerus="yes">
-        <source>~%n block(s) remaining</source>
-        <translation type="vanished">
-            <numerusform>剩余 ~%n 个区块</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to E-Gold network</source>
-        <translation type="vanished">
-            <numerusform>共有 %n 条活跃连接</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>%n second(s) ago</source>
-        <translation type="vanished">
-            <numerusform>%n 秒前</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s) ago</source>
-        <translation type="vanished">
-            <numerusform>%n 分钟前</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s) ago</source>
-        <translation type="vanished">
-            <numerusform>%n 小时前</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s) ago</source>
-        <translation type="vanished">
-            <numerusform>%n 天前</numerusform>
-        </translation>
+        <translation>数据未同步</translation>
     </message>
 </context>
 <context>
     <name>QRCodeDialog</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="129"/>
-        <source>Amount:</source>
-        <translation>金额:</translation>
-    </message>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="14"/>
+        <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
-        <translation>二维码对话框</translation>
+        <translation>QR二维码对话框</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="73"/>
+        <location line="+59"/>
         <source>Request Payment</source>
-        <translation></translation>
+        <translation>请求支付</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="85"/>
+        <location line="+56"/>
+        <source>Amount:</source>
+        <translation>金额：</translation>
+    </message>
+    <message>
+        <location line="-44"/>
         <source>Label:</source>
-        <translation>标签:</translation>
+        <translation>标签：</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="104"/>
+        <location line="+19"/>
         <source>Message:</source>
-        <translation>消息:</translation>
+        <translation>信息：</translation>
     </message>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="175"/>
+        <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>另存为(&amp;S):</translation>
+        <translation>另存为(&amp;S)...</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="64"/>
+        <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>将 URI 转为二维码失败。</translation>
+        <translation>URI编为QR二维码时出错。</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="104"/>
+        <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>输入的金额无效，请重新检查。</translation>
+        <translation>输入的金额无效，请检查。</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="127"/>
+        <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URI太长，尽量减少标签/消息长度</translation>
+        <translation>生成的URI过长，请减短标签或消息的长度。</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="152"/>
+        <location line="+25"/>
         <source>Save QR Code</source>
-        <translation>保存二维码</translation>
+        <translation>保存QR二维码</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="152"/>
+        <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG 图片文件(*.png)</translation>
+        <translation>PNG图片(*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>E-Gold - Debug window</source>
-        <translation>E-Gold - 调试窗口</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="24"/>
-        <source>&amp;Information</source>
-        <translation>信息(&amp;I)</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="39"/>
-        <source>E-Gold Core</source>
-        <translation>E-Gold核心</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="46"/>
+        <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
         <translation>客户端名称</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="56"/>
-        <location filename="../forms/rpcconsole.ui" line="79"/>
-        <location filename="../forms/rpcconsole.ui" line="105"/>
-        <location filename="../forms/rpcconsole.ui" line="128"/>
-        <location filename="../forms/rpcconsole.ui" line="151"/>
-        <location filename="../forms/rpcconsole.ui" line="187"/>
-        <location filename="../forms/rpcconsole.ui" line="240"/>
-        <location filename="../forms/rpcconsole.ui" line="263"/>
-        <location filename="../forms/rpcconsole.ui" line="286"/>
-        <location filename="../rpcconsole.cpp" line="350"/>
+        <location line="+10"/>
+        <location line="+23"/>
+        <location line="+26"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+53"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location filename="../rpcconsole.cpp" line="+348"/>
         <source>N/A</source>
         <translation>不可用</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="69"/>
+        <location line="-217"/>
         <source>Client version</source>
         <translation>客户端版本</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="92"/>
+        <location line="-45"/>
+        <source>&amp;Information</source>
+        <translation>信息(&amp;I)</translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation>OpenSSL版本</translation>
+        <translation>使用 OpenSSL 版本</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="118"/>
-        <source>Build date</source>
-        <translation>创建日期</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="141"/>
+        <location line="+49"/>
         <source>Startup time</source>
         <translation>启动时间</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="170"/>
+        <location line="+29"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="177"/>
+        <location line="+7"/>
         <source>Number of connections</source>
         <translation>连接数</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="200"/>
+        <location line="+23"/>
         <source>On testnet</source>
-        <translation>在testnet</translation>
+        <translation>测试网</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="223"/>
+        <location line="+23"/>
         <source>Block chain</source>
-        <translation>区块链</translation>
+        <translation>数据链</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="230"/>
+        <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>当前区块数量</translation>
+        <translation>当前数据块数量</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="253"/>
+        <location line="+23"/>
         <source>Estimated total blocks</source>
         <translation>预计数据块数量</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="276"/>
+        <location line="+23"/>
         <source>Last block time</source>
-        <translation>上一区块时间</translation>
+        <translation>上一数据块时间</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="318"/>
-        <source>Debug log file</source>
-        <translation>Debug日志文件</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="325"/>
-        <source>Open the E-Gold debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>从当前数据目录打开Debug日志文件，日志文件太大的话会花几秒钟时间</translation>
-    </message>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="328"/>
+        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>打开(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="344"/>
+        <location line="+16"/>
         <source>Command-line options</source>
         <translation>命令行选项</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="351"/>
+        <location line="+7"/>
         <source>Show the E-Gold-Qt help message to get a list with possible E-Gold command-line options.</source>
-        <translation>显示E-Gold-Qt的帮助信息，以获得可能的命令行选项</translation>
+        <translation>显示关于命令行选项的帮助信息。</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="354"/>
+        <location line="+3"/>
         <source>&amp;Show</source>
         <translation>显示(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="378"/>
+        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>控制台(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="427"/>
+        <location line="-260"/>
+        <source>Build date</source>
+        <translation>创建时间</translation>
+    </message>
+    <message>
+        <location line="-104"/>
+        <source>E-Gold - Debug window</source>
+        <translation>E-Gold客户端-调试窗口</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>E-Gold Core</source>
+        <translation>E-Gold核心进程</translation>
+    </message>
+    <message>
+        <location line="+279"/>
+        <source>Debug log file</source>
+        <translation>调试日志文件</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open the E-Gold debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>打开调试日志文件，对于较大的文件，这可能持续几秒钟。</translation>
+    </message>
+    <message>
+        <location line="+102"/>
         <source>Clear console</source>
         <translation>清空控制台</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="317"/>
+        <location filename="../rpcconsole.cpp" line="-33"/>
         <source>Welcome to the E-Gold RPC console.</source>
-        <translation>欢迎来到RPC控制台</translation>
+        <translation>欢迎使用E-GoldRPC控制台。</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="318"/>
+        <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="319"/>
+        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
@@ -1611,503 +1644,510 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="14"/>
-        <location filename="../sendcoinsdialog.cpp" line="184"/>
-        <location filename="../sendcoinsdialog.cpp" line="189"/>
-        <location filename="../sendcoinsdialog.cpp" line="194"/>
-        <location filename="../sendcoinsdialog.cpp" line="199"/>
-        <location filename="../sendcoinsdialog.cpp" line="205"/>
-        <location filename="../sendcoinsdialog.cpp" line="210"/>
-        <location filename="../sendcoinsdialog.cpp" line="215"/>
+        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
+        <location filename="../sendcoinsdialog.cpp" line="+182"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+6"/>
+        <location line="+5"/>
+        <location line="+5"/>
         <source>Send Coins</source>
         <translation>发送货币</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="90"/>
+        <location line="+76"/>
         <source>Coin Control Features</source>
-        <translation>货币控制功能</translation>
+        <translation>交易源地址控制功能</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="110"/>
+        <location line="+20"/>
         <source>Inputs...</source>
         <translation>输入...</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="117"/>
+        <location line="+7"/>
         <source>automatically selected</source>
         <translation>自动选择</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="136"/>
+        <location line="+19"/>
         <source>Insufficient funds!</source>
-        <translation>资金不足</translation>
+        <translation>存款不足！</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="213"/>
+        <location line="+77"/>
         <source>Quantity:</source>
-        <translation>数量:</translation>
+        <translation>总量：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="235"/>
-        <location filename="../forms/sendcoinsdialog.ui" line="270"/>
+        <location line="+22"/>
+        <location line="+35"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="251"/>
+        <location line="-19"/>
         <source>Bytes:</source>
-        <translation>字节:</translation>
+        <translation>字节：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="302"/>
+        <location line="+51"/>
         <source>Amount:</source>
-        <translation>金额:</translation>
+        <translation>金额：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="324"/>
-        <location filename="../forms/sendcoinsdialog.ui" line="410"/>
-        <location filename="../forms/sendcoinsdialog.ui" line="496"/>
-        <location filename="../forms/sendcoinsdialog.ui" line="528"/>
-        <source>0.00 MINT</source>
-        <translation>0.00 铸币</translation>
+        <location line="+22"/>
+        <location line="+86"/>
+        <location line="+86"/>
+        <location line="+32"/>
+        <source>0.00 EGD</source>
+        <translation>123.456 EGD {0.00 ?}</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="337"/>
+        <location line="-191"/>
         <source>Priority:</source>
-        <translation>优先级:</translation>
+        <translation>优先级：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="356"/>
+        <location line="+19"/>
         <source>medium</source>
         <translation>中等</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="388"/>
+        <location line="+32"/>
         <source>Fee:</source>
-        <translation>费用:</translation>
+        <translation>费用：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="423"/>
+        <location line="+35"/>
         <source>Low Output:</source>
-        <translation>低输出:</translation>
+        <translation>低输出</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="442"/>
+        <location line="+19"/>
         <source>no</source>
-        <translation>否</translation>
+        <translation>no</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="474"/>
+        <location line="+32"/>
         <source>After Fee:</source>
-        <translation>之后费用:</translation>
+        <translation>加上交易费用后:</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="509"/>
+        <location line="+35"/>
         <source>Change</source>
-        <translation>找零</translation>
+        <translation>零钱</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="559"/>
+        <location line="+50"/>
         <source>custom change address</source>
-        <translation>自定义找零地址</translation>
+        <translation>自定义零钱地址</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="665"/>
+        <location line="+106"/>
         <source>Send to multiple recipients at once</source>
-        <translation>马上发送给多个接收者</translation>
+        <translation>一次发送给多个接收者</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="668"/>
+        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>增加接收者(&amp;R)</translation>
+        <translation>添加收款人(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="691"/>
+        <location line="+20"/>
+        <source>Remove all transaction fields</source>
+        <translation>删除所有交易区域</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Clear &amp;All</source>
         <translation>清除所有(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="735"/>
-        <source>123.456 MINT</source>
-        <translation>123.456 铸币</translation>
+        <location line="+28"/>
+        <source>Balance:</source>
+        <translation>余额：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="769"/>
+        <location line="+16"/>
+        <source>123.456 EGD</source>
+        <translation>123.456 EGD</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Confirm the send action</source>
+        <translation>确认并发送货币</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>S&amp;end</source>
         <translation>发送(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="688"/>
-        <source>Remove all transaction fields</source>
-        <translation>删除所有交易项</translation>
+        <source>Enter a E-Gold address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation type="obsolete">输入E-Gold地址(例如：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="719"/>
-        <source>Balance:</source>
-        <translation>帐户余额:</translation>
+        <location filename="../sendcoinsdialog.cpp" line="-173"/>
+        <source>Enter a E-Gold address (e.g. EVSuBFAggF6N9XiT8MhiVDnn7XXXTQXqpv)</source>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="766"/>
-        <source>Confirm the send action</source>
-        <translation>确认发送操作</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="38"/>
-        <source>Enter a E-Gold address</source>
-        <translation>输入地址</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="53"/>
+        <location line="+15"/>
         <source>Copy quantity</source>
-        <translation>复制数量</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="54"/>
+        <location line="+1"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="55"/>
+        <location line="+1"/>
         <source>Copy fee</source>
-        <translation></translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="56"/>
+        <location line="+1"/>
         <source>Copy after fee</source>
-        <translation>复制费用</translation>
+        <translation>复制含交易费的金额</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="57"/>
+        <location line="+1"/>
         <source>Copy bytes</source>
         <translation>复制字节</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="58"/>
+        <location line="+1"/>
         <source>Copy priority</source>
         <translation>复制优先级</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="59"/>
+        <location line="+1"/>
         <source>Copy low output</source>
         <translation>复制低输出</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="60"/>
+        <location line="+1"/>
         <source>Copy change</source>
-        <translation>复制找零</translation>
+        <translation>复制零钱</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="147"/>
-        <location filename="../sendcoinsdialog.cpp" line="149"/>
+        <location line="+86"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; 到 %2 (%3)</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; 至 %2 (%3)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="155"/>
+        <location line="+5"/>
         <source>Confirm send coins</source>
         <translation>确认发送货币</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="156"/>
+        <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>你确认要发送 %1?</translation>
+        <translation>确认要发送 %1 ?</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="156"/>
+        <location line="+0"/>
         <source> and </source>
-        <translation> 和 </translation>
+        <translation>和</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="185"/>
+        <location line="+29"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>接收者地址无效，请重新检查</translation>
+        <translation>收款人地址不合法，请检查。</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="195"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>发送金额超出你的帐户余额。</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="200"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>加入 %1 交易费，总金额超出你的帐户余额。</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="206"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>地址重复，每个发送操作向每个地址只能发送一次。</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="211"/>
-        <source>Error: Transaction creation failed.</source>
-        <translation>错误：创建交易失败</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="216"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：交易被拒绝，你钱包中的有些货币已经被花掉，可能你用你的备份钱包花了钱，但是这个钱包中未标识。</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="468"/>
-        <source>WARNING: Invalid E-Gold address</source>
-        <translation>警告：无效E-Gold地址</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="481"/>
-        <source>(no label)</source>
-        <translation>(无标签)</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="485"/>
-        <source>WARNING: unknown change address</source>
-        <translation>警告：未知找零地址</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="190"/>
+        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>要支付的金额必须大于0。</translation>
+        <translation>支付金额必须大于0。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The amount exceeds your balance.</source>
+        <translation>金额超出您的账上余额。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>计入 %1 交易费后的金额超出您的账上余额。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>发现重复的地址, 每次只能对同一地址发送一次。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: Transaction creation failed.</source>
+        <translation>错误：交易创建失败。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
+    </message>
+    <message>
+        <location line="+251"/>
+        <source>WARNING: Invalid E-Gold address</source>
+        <translation>警告：无效的E-Gold地址</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>(no label)</source>
+        <translation>(没有标签)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>WARNING: unknown change address</source>
+        <translation>警告：未知的零钱地址</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="14"/>
+        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>来源</translation>
+        <translation>表单</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="29"/>
+        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>金额(&amp;M):</translation>
+        <translation>金额(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="42"/>
+        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>支付到(&amp;T)</translation>
+        <translation>付给(&amp;T)：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="66"/>
-        <location filename="../sendcoinsentry.cpp" line="26"/>
+        <location line="+24"/>
+        <location filename="../sendcoinsentry.cpp" line="+25"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>为这个地址输入一个标签，以便加入地址薄</translation>
+        <translation>为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="75"/>
+        <location line="+9"/>
         <source>&amp;Label:</source>
-        <translation>标签(&amp;L):</translation>
+        <translation>标签(&amp;L)：</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="93"/>
-        <source>The address to send the payment to  (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>要支付的地址(例如：4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <location line="+18"/>
+        <source>The address to send the payment to  (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>收款人地址(例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="103"/>
+        <location line="+10"/>
         <source>Choose address from address book</source>
-        <translation>从地址薄中选择地址</translation>
+        <translation>从地址簿选择地址</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="113"/>
+        <location line="+10"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="120"/>
+        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>从剪贴板粘贴地址</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="130"/>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="137"/>
+        <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>删除接收者</translation>
+        <translation>删除收款人</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="27"/>
-        <source>Enter a valid E-Gold address</source>
-        <translation>输入一个有效的E-Gold地址</translation>
+        <source>Enter a E-Gold address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation type="obsolete">输入一个E-Gold地址 (例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="+1"/>
+        <source>Enter a E-Gold address (e.g. EVSuBFAggF6N9XiT8MhiVDnn7XXXTQXqpv)</source>
+        <translation></translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="14"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>签名 - 签名/验证 一个消息</translation>
+        <translation>签名 - 为消息签名/验证签名消息</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="27"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="151"/>
+        <location line="+13"/>
+        <location line="+124"/>
         <source>&amp;Sign Message</source>
-        <translation>消息签名(&amp;S)</translation>
+        <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="33"/>
+        <location line="-118"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="51"/>
-        <source>The address to sign the message with (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>用于签名消息的地址（例如: 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5）</translation>
+        <location line="+18"/>
+        <source>The address to sign the message with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>用来签名该消息的地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="61"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="264"/>
+        <location line="+10"/>
+        <location line="+203"/>
         <source>Choose an address from the address book</source>
-        <translation>从地址薄选择一个地址</translation>
+        <translation>从地址簿里选择一个地址</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="71"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="274"/>
+        <location line="-193"/>
+        <location line="+203"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="81"/>
+        <location line="-193"/>
         <source>Paste address from clipboard</source>
         <translation>从剪贴板粘贴地址</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="91"/>
+        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="103"/>
+        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
         <translation>请输入您要发送的签名消息</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="127"/>
+        <location line="+24"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="148"/>
+        <location line="+21"/>
         <source>Sign the message to prove you own this E-Gold address</source>
-        <translation>签名消息，证明这个地址属于您。</translation>
+        <translation>对该消息进行签名以证明您对该E-Gold地址的所有权</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="165"/>
+        <location line="+17"/>
         <source>Reset all sign message fields</source>
         <translation>清空所有签名消息栏</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="168"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="314"/>
+        <location line="+3"/>
+        <location line="+146"/>
         <source>Clear &amp;All</source>
         <translation>清除所有(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="227"/>
-        <location filename="../forms/signverifymessagedialog.ui" line="297"/>
+        <location line="-87"/>
+        <location line="+70"/>
         <source>&amp;Verify Message</source>
         <translation>验证消息(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="233"/>
+        <location line="-64"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="254"/>
-        <source>The address the message was signed with (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>用于签名消息的地址(例如: 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <location line="+21"/>
+        <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>用来签名该消息的E-Gold地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="294"/>
+        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified E-Gold address</source>
-        <translation>验证消息，确保消息是由指定的地址签名过的。</translation>
+        <translation>确认该消息以保证它经由指定的E-Gold地址签名</translation>
     </message>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="311"/>
+        <location line="+17"/>
         <source>Reset all verify message fields</source>
         <translation>清空所有验证消息栏</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="28"/>
-        <location filename="../signverifymessagedialog.cpp" line="31"/>
-        <source>Enter a valid E-Gold address</source>
-        <translation>请输入有效的E-Gold地址</translation>
+        <location filename="../signverifymessagedialog.cpp" line="+27"/>
+        <location line="+3"/>
+        <source>Enter a E-Gold address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>输入E-Gold地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="29"/>
+        <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="32"/>
+        <location line="+3"/>
         <source>Enter E-Gold signature</source>
         <translation>输入E-Gold签名</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="114"/>
-        <location filename="../signverifymessagedialog.cpp" line="195"/>
+        <location line="+82"/>
+        <location line="+81"/>
         <source>The entered address is invalid.</source>
         <translation>输入的地址非法。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="114"/>
-        <location filename="../signverifymessagedialog.cpp" line="122"/>
-        <location filename="../signverifymessagedialog.cpp" line="195"/>
-        <location filename="../signverifymessagedialog.cpp" line="203"/>
+        <location line="-81"/>
+        <location line="+8"/>
+        <location line="+73"/>
+        <location line="+8"/>
         <source>Please check the address and try again.</source>
         <translation>请检查地址后重试。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="122"/>
-        <location filename="../signverifymessagedialog.cpp" line="203"/>
+        <location line="-81"/>
+        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
         <translation>输入的地址没有关联的公私钥对。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="130"/>
+        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
         <translation>钱包解锁动作取消。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="138"/>
+        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
         <translation>找不到输入地址关联的私钥。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="150"/>
+        <location line="+12"/>
         <source>Message signing failed.</source>
         <translation>消息签名失败。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="155"/>
+        <location line="+5"/>
         <source>Message signed.</source>
         <translation>消息已签名。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="214"/>
+        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation></translation>
+        <translation>签名无法解码。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="214"/>
-        <location filename="../signverifymessagedialog.cpp" line="227"/>
+        <location line="+0"/>
+        <location line="+13"/>
         <source>Please check the signature and try again.</source>
         <translation>请检查签名后重试。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="227"/>
+        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
         <translation>签名与消息摘要不匹配。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="234"/>
+        <location line="+7"/>
         <source>Message verification failed.</source>
         <translation>消息验证失败。</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="239"/>
+        <location line="+5"/>
         <source>Message verified.</source>
         <translation>消息验证成功。</translation>
     </message>
@@ -2115,179 +2155,190 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="19"/>
+        <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
         <translation>至 %1 个数据块时开启</translation>
     </message>
     <message numerus="yes">
-        <location filename="../transactiondesc.cpp" line="17"/>
         <source>Open for %n block(s)</source>
-        <translation>
-            <numerusform>Open for %n block</numerusform>
+        <translation type="obsolete">
+            <numerusform>为 %n 个数据块开启</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="25"/>
+        <location line="+6"/>
+        <source>conflicted</source>
+        <translation>发现冲突</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>%1/offline</source>
         <translation>%1 / 离线</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="27"/>
+        <location line="+2"/>
         <source>%1/unconfirmed</source>
         <translation>%1/未确认</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="29"/>
+        <location line="+2"/>
         <source>%1 confirmations</source>
         <translation>%1 已确认</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="47"/>
+        <location line="+17"/>
         <source>Status</source>
         <translation>状态</translation>
     </message>
     <message numerus="yes">
-        <location filename="../transactiondesc.cpp" line="54"/>
+        <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
         <translation>
             <numerusform>通过 %n 个节点广播</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="58"/>
+        <location line="+4"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="65"/>
+        <location line="+7"/>
         <source>Source</source>
         <translation>源</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="65"/>
+        <location line="+0"/>
         <source>Generated</source>
         <translation>生成</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="70"/>
-        <location filename="../transactiondesc.cpp" line="87"/>
+        <location line="+5"/>
+        <location line="+17"/>
         <source>From</source>
         <translation>来自</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="88"/>
-        <location filename="../transactiondesc.cpp" line="110"/>
-        <location filename="../transactiondesc.cpp" line="168"/>
+        <location line="+1"/>
+        <location line="+22"/>
+        <location line="+58"/>
         <source>To</source>
         <translation>到</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="91"/>
-        <location filename="../transactiondesc.cpp" line="93"/>
+        <location line="-77"/>
+        <location line="+2"/>
         <source>own address</source>
         <translation>自己的地址</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="91"/>
+        <location line="-2"/>
         <source>label</source>
         <translation>标签</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="128"/>
-        <location filename="../transactiondesc.cpp" line="140"/>
-        <location filename="../transactiondesc.cpp" line="185"/>
-        <location filename="../transactiondesc.cpp" line="202"/>
-        <location filename="../transactiondesc.cpp" line="235"/>
+        <location line="+37"/>
+        <location line="+12"/>
+        <location line="+45"/>
+        <location line="+17"/>
+        <location line="+30"/>
         <source>Credit</source>
         <translation>收入</translation>
     </message>
     <message numerus="yes">
-        <location filename="../transactiondesc.cpp" line="130"/>
+        <location line="-102"/>
         <source>matures in %n more block(s)</source>
         <translation>
             <numerusform>将在 %n 个数据块后成熟</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="132"/>
+        <location line="+2"/>
         <source>not accepted</source>
         <translation>未被接受</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="176"/>
-        <location filename="../transactiondesc.cpp" line="184"/>
-        <location filename="../transactiondesc.cpp" line="199"/>
-        <location filename="../transactiondesc.cpp" line="232"/>
+        <location line="+44"/>
+        <location line="+8"/>
+        <location line="+15"/>
+        <location line="+30"/>
         <source>Debit</source>
         <translation>支出</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="190"/>
+        <location line="-39"/>
         <source>Transaction fee</source>
         <translation>交易费</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="206"/>
+        <location line="+16"/>
         <source>Net amount</source>
         <translation>净额</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="212"/>
+        <location line="+6"/>
         <source>Message</source>
         <translation>消息</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="215"/>
+        <location line="+2"/>
         <source>Comment</source>
         <translation>备注</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="217"/>
+        <location line="+2"/>
         <source>Transaction ID</source>
         <translation>交易ID</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="222"/>
-        <source>Generated coins must mature 50 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>生成的E-Gold在可以使用前必须有50个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
+        <location line="+3"/>
+        <source>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>通过权益累积获得的金额需要在510个块确认后方可使用。此数据块生成时，将被广播到网络并加入区块链。如果未能成功加入区块链，其状态会显示为“未接受”，该部分金额也不可被使用。如果其他节点在您生成区块后的几秒钟内也生成了区块，这种情况会偶尔发生。</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="229"/>
+        <location line="+7"/>
         <source>Debug information</source>
         <translation>调试信息</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="237"/>
+        <location line="+8"/>
         <source>Transaction</source>
         <translation>交易</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="242"/>
+        <location line="+5"/>
         <source>Inputs</source>
         <translation>输入</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="265"/>
+        <location line="+21"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="266"/>
+        <location line="+1"/>
         <source>true</source>
         <translation>正确</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="266"/>
+        <location line="+0"/>
         <source>false</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="52"/>
+        <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>，未被成功广播</translation>
     </message>
+    <message numerus="yes">
+        <location line="-36"/>
+        <source>Open for %n more block(s)</source>
+        <translation>
+            <numerusform>为 %n 个更多的区块开启</numerusform>
+        </translation>
+    </message>
     <message>
-        <location filename="../transactiondesc.cpp" line="87"/>
+        <location line="+71"/>
         <source>unknown</source>
         <translation>未知</translation>
     </message>
@@ -2295,12 +2346,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="14"/>
+        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
         <translation>交易细节</translation>
     </message>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="20"/>
+        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>当前面板显示了交易的详细信息</translation>
     </message>
@@ -2308,127 +2359,129 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location filename="../transactiontablemodel.cpp" line="+230"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location line="+0"/>
         <source>Type</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location line="+0"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="226"/>
+        <location line="+0"/>
         <source>Amount</source>
-        <translation>金额</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../transactiontablemodel.cpp" line="283"/>
-        <source>Open for %n block(s)</source>
-        <translation>
-            <numerusform>将在 %n 区块后开启</numerusform>
-        </translation>
+        <translation>数量</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="286"/>
+        <location line="+52"/>
         <source>Open until %1</source>
         <translation>至 %1 个数据块时开启</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="289"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>离线 (%1 个确认项)</translation>
-    </message>
-    <message>
-        <location filename="../transactiontablemodel.cpp" line="292"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>未确认 (%1 / %2 条确认信息)</translation>
-    </message>
-    <message>
-        <location filename="../transactiontablemodel.cpp" line="295"/>
+        <location line="+12"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>已确认 (%1 条确认信息)</translation>
     </message>
     <message numerus="yes">
-        <source>Mined balance will be available in %n more blocks</source>
-        <translation type="vanished">
-            <numerusform>挖矿收入会在 %n 个区块后可用</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../transactiontablemodel.cpp" line="303"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
+        <location line="-15"/>
+        <source>Open for %n more block(s)</source>
         <translation>
-            <numerusform>挖矿收入会在 %n 个区块后成熟</numerusform>
+            <numerusform>为 %n 个更多的区块开启</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="308"/>
+        <location line="+6"/>
+        <source>Offline</source>
+        <translation>掉线</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Unconfirmed</source>
+        <translation>未确认的 </translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>确认中 (推荐 %2个确认，已经有 %1个确认)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Conflicted</source>
+        <translation>冲突的</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>未成熟 (%1 个确认，将在 %2 个后可用)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>此数据块未被任何其他节点接收，可能不被接受！</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="311"/>
+        <location line="+3"/>
         <source>Generated but not accepted</source>
         <translation>已生成但未被接受</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="354"/>
+        <location line="+42"/>
         <source>Received with</source>
         <translation>接收于</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="356"/>
+        <location line="+2"/>
         <source>Received from</source>
         <translation>收款来自</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="359"/>
+        <location line="+3"/>
         <source>Sent to</source>
         <translation>发送给</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="361"/>
+        <location line="+2"/>
         <source>Payment to yourself</source>
         <translation>付款给自己</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="364"/>
+        <location line="+2"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="407"/>
+        <location line="+38"/>
         <source>(n/a)</source>
         <translation>（不可用）</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="606"/>
+        <location line="+190"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>交易状态。 鼠标移到此区域可显示确认项数量。</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="608"/>
+        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
         <translation>接收到交易的时间</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="610"/>
+        <location line="+2"/>
         <source>Type of transaction.</source>
         <translation>交易类别。</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="612"/>
+        <location line="+2"/>
         <source>Destination address of transaction.</source>
         <translation>交易目的地址。</translation>
     </message>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="614"/>
+        <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
         <translation>从余额添加或移除的金额。</translation>
     </message>
@@ -2436,164 +2489,168 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="56"/>
-        <location filename="../transactionview.cpp" line="72"/>
+        <location filename="../transactionview.cpp" line="+55"/>
+        <location line="+16"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="57"/>
+        <location line="-15"/>
         <source>Today</source>
         <translation>今天</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="58"/>
+        <location line="+1"/>
         <source>This week</source>
         <translation>本周</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="59"/>
+        <location line="+1"/>
         <source>This month</source>
         <translation>本月</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="60"/>
+        <location line="+1"/>
         <source>Last month</source>
         <translation>上月</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="61"/>
+        <location line="+1"/>
         <source>This year</source>
         <translation>今年</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="62"/>
+        <location line="+1"/>
         <source>Range...</source>
         <translation>范围...</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="73"/>
+        <location line="+11"/>
         <source>Received with</source>
         <translation>接收于</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="75"/>
+        <location line="+2"/>
         <source>Sent to</source>
         <translation>发送给</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="77"/>
+        <location line="+2"/>
         <source>To yourself</source>
         <translation>到自己</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="78"/>
-        <location filename="../transactionview.cpp" line="79"/>
+        <location line="+1"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="80"/>
+        <location line="+1"/>
         <source>Other</source>
         <translation>其他</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="87"/>
+        <location line="+7"/>
         <source>Enter address or label to search</source>
         <translation>输入地址或标签进行搜索</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="94"/>
+        <location line="+7"/>
         <source>Min amount</source>
         <translation>最小金额</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="128"/>
+        <location line="+34"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="129"/>
+        <location line="+1"/>
         <source>Copy label</source>
         <translation>复制标签</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="130"/>
+        <location line="+1"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="131"/>
+        <location line="+1"/>
+        <source>Copy transaction ID</source>
+        <translation>复制交易编号</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Edit label</source>
         <translation>编辑标签</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="132"/>
+        <location line="+1"/>
         <source>Show transaction details</source>
         <translation>显示交易详情</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="277"/>
+        <location line="+144"/>
         <source>Export Transaction Data</source>
-        <translation>导出交易数据</translation>
+        <translation>输出交易数据</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="278"/>
+        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>逗号分隔文件 (*.csv)</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="286"/>
+        <location line="+8"/>
         <source>Confirmed</source>
         <translation>已确认</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="287"/>
+        <location line="+1"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="288"/>
+        <location line="+1"/>
         <source>Type</source>
         <translation>类别</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="289"/>
+        <location line="+1"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="290"/>
+        <location line="+1"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="291"/>
+        <location line="+1"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="292"/>
+        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="296"/>
+        <location line="+4"/>
         <source>Error exporting</source>
-        <translation>导出错误</translation>
+        <translation>导出出现错误</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="296"/>
+        <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>无法写入文件 %1。</translation>
+        <translation>无法写入文件 %1 。</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="391"/>
+        <location line="+100"/>
         <source>Range:</source>
         <translation>范围：</translation>
     </message>
     <message>
-        <location filename="../transactionview.cpp" line="399"/>
+        <location line="+8"/>
         <source>to</source>
         <translation>到</translation>
     </message>
@@ -2601,651 +2658,722 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="205"/>
+        <location filename="../walletmodel.cpp" line="+219"/>
         <source>Sending...</source>
-        <translation>正在发送...</translation>
+        <translation>正在发送</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="9"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
- %s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-If the file does not exist, create it with owner-readable-only file permissions.
-</source>
-        <translation>%s, 您必须在配置文件设置rpcpassword:
- %s
-建议您使用下面的随机密码:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(您无需记住此密码)
-用户名和密码 必! 须! 不一样。
-如果配置文件不存在，请自行建立一个只有所有者拥有只读权限的文件。
-推荐您开启提示通知以便收到错误通知，
-像这样: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+        <location filename="../bitcoinstrings.cpp" line="+33"/>
+        <source>E-Gold version</source>
+        <translation>E-Gold客户端 版本</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Usage:</source>
+        <translation>使用：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send command to -server or E-Goldd</source>
+        <translation>向-server服务器或E-Goldd发送命令</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>List commands</source>
+        <translation>列出命令
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>可接受的密码（默认：TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH）</translation>
+        <location line="+1"/>
+        <source>Get help for a command</source>
+        <translation>获得某条命令的帮助
+</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="21"/>
+        <location line="+2"/>
+        <source>Options:</source>
+        <translation>选项：
+</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Specify configuration file (default: E-Gold.conf)</source>
+        <translation>指定配置文件(默认: E-Gold.conf)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Specify pid file (default: E-Goldd.pid)</source>
+        <translation>指定pid文件(默认: E-Goldd.pid)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>指定钱包文件（数据目录内）</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Specify data directory</source>
+        <translation>指定数据目录
+</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>设置数据库缓冲区大小 (缺省: 25MB)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation>设置数据库日志文件大小(单位MB，默认值100)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Listen for connections on &lt;port&gt; (default: 15714 or testnet: 25714)</source>
+        <translation>监听&lt;port&gt;端口的连接 (默认: 15714 测试网: 25714)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>最大连接数 &lt;n&gt; （缺省: 125）</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>连接一个节点并获取对端地址，然后断开连接</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Specify your own public address</source>
+        <translation>指定您的公共地址</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation>以IPv6 [host]:端口绑定给定地址</translation>
+    </message>
+    <message>
+        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <translation type="obsolete">进行权益累积以支持E-Gold网络并获得报酬(默认: 1)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>断开出现问题节点阀值（缺省: 100）</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Number of seconds to keep misbehaving peers from reconnecting (缺省: 86400)</translation>
+    </message>
+    <message>
+        <location line="-43"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>在IPv4模式: %s 下设置RPC监听端口 %u 失败</translation>
+        <translation>设置RPC监听端口%u时发生错误, IPv4:%s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="23"/>
+        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
+        <translation type="obsolete">离线保存区块和地址数据库. 增加关机时间。 (默认: 0)</translation>
+    </message>
+    <message>
+        <location line="+157"/>
+        <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
+    </message>
+    <message>
+        <location line="-5"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
+        <translation>错误：该笔交易需至少支付 %s 的手续费。</translation>
+    </message>
+    <message>
+        <location line="-87"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15715 or testnet: 25715)</source>
+        <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 15715 测试网: 25715)</translation>
+    </message>
+    <message>
+        <location line="-11"/>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>接受命令行和 JSON-RPC 命令
+</translation>
+    </message>
+    <message>
+        <location line="+101"/>
+        <source>Error: Transaction creation failed  </source>
+        <translation>错误：交易创建失败。</translation>
+    </message>
+    <message>
+        <location line="-5"/>
+        <source>Error: Wallet locked, unable to create transaction  </source>
+        <translation>错误：钱包已锁定，无法创建交易。</translation>
+    </message>
+    <message>
+        <location line="-8"/>
+        <source>Importing blockchain data file.</source>
+        <translation>正在导入区块链数据文件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Importing bootstrap blockchain data file.</source>
+        <translation>正在导入高速区块链数据文件</translation>
+    </message>
+    <message>
+        <location line="-88"/>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>在后台运行并接受命令
+
+</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use the test network</source>
+        <translation>使用测试网络
+</translation>
+    </message>
+    <message>
+        <location line="-21"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>接受来自外部的连接 (缺省: 如果不带 -proxy or -connect 参数设置为1)</translation>
+    </message>
+    <message>
+        <location line="-38"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>在IPv6模式下设置RPC监听端口 %u 失败，返回到IPv4模式: %s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Cannot obtain a lock on data directory %s.  E-Gold is probably already running.</source>
-        <translation>无法给数据目录 %s上锁。本软件可能已经在运行。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="29"/>
-        <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
-        <translation>分离区块和地址数据库，增加关闭时间(默认:0)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="31"/>
+        <location line="+115"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
-        <translation>初始化数据库环境错误 %s ! 要恢复，请备份目录，删除除了wallet.dat以外的任何文件。</translation>
+        <translation>数据库环境 %s 初始化错误。要修复，备份该目录并将其下除wallet.dat以外的文件全部删除。</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="34"/>
-        <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的E-Gold已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了货币，但是这个钱包文件中没有记录。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="38"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation>错误：因为该交易的数量、复杂度或者动用了刚收到不久的资金，您需要支付不少于%s的交易费用。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="41"/>
-        <source>Error: Wallet unlocked for block minting only, unable to create transaction.</source>
-        <translation>错误：钱包解锁仅为挖矿，不能创建交易。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>当最佳数据块变化时执行命令 (命令行中的 %s 会被替换成数据块哈希值)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="46"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22709 or testnet: 12709)</source>
-        <translation>JSON-RPC连接监听端口&lt;port&gt; (缺省：22709　testnet：12709)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>重新连接有错误行为的节点的时间间隔(秒，默认86400)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="51"/>
+        <location line="-21"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>设置高优先级/低费用交易的最大字节数(默认：27000)</translation>
+        <translation>设置高优先度/低手续费交易的最大字节数 (默认: 27000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="54"/>
-        <source>Unable to bind to %s on this computer. E-Gold is probably already running.</source>
-        <translation>无法绑定本机端口 %s  ,E-Gold可能已经在运行。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="56"/>
+        <location line="+11"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告：-paytxfee 交易费设置得太高了！每笔交易都将支付交易费。</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="59"/>
+        <location line="+61"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong E-Gold will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致客户端运行异常。</translation>
+        <translation>警告：请确认您计算机的本地时间。如果时钟错误，E-Gold客户端将不能正常工作。</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="62"/>
+        <location line="-30"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>警告：钱包文件wallet.dat读取失败！最重要的公钥、私钥数据都没有问题，但是交易记录或地址簿数据不正确，或者存在数据丢失。</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="65"/>
+        <location line="-18"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>警告：钱包文件wallet.dat损坏! 原始的钱包文件已经备份到%s目录下并重命名为{timestamp}.bak 。如果您的账户余额或者交易记录不正确，请使用您的钱包备份文件恢复。</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="69"/>
+        <location line="-31"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>尝试从损坏的钱包文件wallet.dat中恢复私钥</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Block creation options:</source>
+        <translation>数据块创建选项：</translation>
+    </message>
+    <message>
+        <location line="-59"/>
+        <source>Connect only to the specified node(s)</source>
+        <translation>仅连接到指定节点</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>发现自己的IP地址(缺省:不带 -externalip 参数监听时设置为1)</translation>
+    </message>
+    <message>
+        <location line="+92"/>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>监听端口失败。请使用 -listen=0 参数。</translation>
+    </message>
+    <message>
+        <location line="-88"/>
+        <source>Find peers using DNS lookup (default: 1)</source>
+        <translation>以DNS查找方式寻找节点 (默认：1)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Sync checkpoints policy (default: strict)</source>
+        <translation>同步检测点政策 (默认：严格)</translation>
+    </message>
+    <message>
+        <location line="+82"/>
+        <source>Invalid -tor address: &apos;%s&apos;</source>
+        <translation>无效的 -tor 地址: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
+        <translation>-reservebalance=&lt;amount&gt; 金额无效</translation>
+    </message>
+    <message>
+        <location line="-81"/>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节(缺省：5000)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation>每个连接的最大发送缓存，&lt;n&gt;*1000 字节(缺省：1000)</translation>
+    </message>
+    <message>
+        <location line="-15"/>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>仅连接至指定网络的节点&lt;net&gt;(IPv4, IPv6 或者 Tor)</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Output extra debugging information. Implies all other -debug* options</source>
+        <translation>输出额外的调试信息。相当于开启了其它所有-debug选项</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Output extra network debugging information</source>
+        <translation>输出额外的网络调试信息</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Prepend debug output with timestamp</source>
+        <translation>将时间信息加入调试输出中</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL选项：(参见Bitcoin Wiki关于SSL设置栏目)</translation>
+    </message>
+    <message>
+        <location line="-71"/>
+        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
+        <translation>选择要使用的SOCKS代理版本 (4-5, 默认 5)</translation>
+    </message>
+    <message>
+        <location line="+38"/>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>跟踪/调试信息输出到控制台，不输出到 debug.log 文件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send trace/debug info to debugger</source>
+        <translation>发送跟踪/调试信息给调试者</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Set maximum block size in bytes (default: 250000)</source>
+        <translation>设置最大区块大小 (默认：250000)</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>设置最小数据块大小(缺省:0)</translation>
+    </message>
+    <message>
+        <location line="-29"/>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>客户端启动时压缩debug.log文件(缺省：no-debug模式时为1)</translation>
+    </message>
+    <message>
+        <location line="-39"/>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>设置连接超时时间(缺省：5000毫秒)</translation>
+    </message>
+    <message>
+        <location line="+107"/>
+        <source>Unable to sign checkpoint, wrong checkpointkey?
+</source>
+        <translation>无法为记录点签名，错误的记录点密钥。</translation>
+    </message>
+    <message>
+        <location line="-79"/>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>使用UPnP映射监听端口 (缺省: 0)</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>使用UPnp映射监听端口(缺省: 监听状态设为1)</translation>
+    </message>
+    <message>
+        <location line="-24"/>
+        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
+        <translation>开启代理以使用隐藏服务 (默认: 和-proxy设置相同)</translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Username for JSON-RPC connections</source>
+        <translation>JSON-RPC 连接用户名</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Verifying database integrity...</source>
+        <translation>正在检查数据库完整性...</translation>
+    </message>
+    <message>
+        <location line="+56"/>
+        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
+        <translation>警告：检测到同步记录点错误，已跳过。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Warning: Disk space is low!</source>
+        <translation>警告：磁盘空间低。</translation>
+    </message>
+    <message>
+        <location line="-2"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>警告：该软件版本已过时，请升级！</translation>
+    </message>
+    <message>
+        <location line="-47"/>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>钱包文件wallet.dat损坏，抢救备份失败</translation>
+    </message>
+    <message>
+        <location line="-55"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC 连接密码
+</translation>
+    </message>
+    <message>
+        <location line="-81"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=E-Goldrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;E-Gold Alert&quot; admin@foo.com
+</source>
+        <translation>%s, 必须在配置文件里设置rpc密码:
+ %s
+建议使用如下的随机密码:
+rpcuser=E-Goldrpc
+rpcpassword=%s
+(不需要记住该密码)
+用户名和密码不能重复。
+如果该文件不存在，请自行创建并设为用户本身只读权限。
+建议创建提示以监测可能的问题，如：
+alertnotify=echo %%s | mail -s &quot;E-Gold Alert&quot; admin@foo.com
+</translation>
+    </message>
+    <message>
+        <location line="+51"/>
+        <source>Find peers using internet relay chat (default: 0)</source>
+        <translation>寻找使用互联网接力聊天的节点 (默认: 1) {0)?}</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <translation>自动和其它节点同步时间。如果本地计算机世界是准确的，建议关闭。(默认: 1)</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>创建交易时自动忽略该值以下的数额 (默认：0.01)</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>允许从指定IP接受到的 JSON-RPC 连接</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>向IP地址为 &lt;ip&gt; 的节点发送指令 (缺省: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>当最佳数据块变化时执行命令 (命令行中的 %s 会被替换成数据块哈希值)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>当最佳区块变化时执行命令 (命令行中的 %s 会被替换成区块哈希值)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Require a confirmations for change (default: 0)</source>
+        <translation>要求对零钱进行确认 (默认：0)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enforce transaction scripts to use canonical PUSH operators (default: 1)</source>
+        <translation>强制要求交易脚本使用标准PUSH算子 (默认：1)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>收到相关提示时执行命令 (命令中的%s将被信息替换)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>将钱包升级到最新的格式</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>设置密钥池大小为 &lt;n&gt; (缺省: 100)
+</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>重新扫描区块链以查找遗漏的钱包交易</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
+        <translation>启动时检测的区块数量 (默认: 2500, 0表示检测全部)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation>区块确认的彻底程度 (0-6, 默认: 1)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation>从外部 blk000?.dat 文件导入区块</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>为 JSON-RPC 连接使用 OpenSSL (https) 连接</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>服务器证书 (默认为 server.cert)
+</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Server private key (default: server.pem)</source>
+        <translation>服务器私钥 (默认为 server.pem)
+</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <translation>可用加密算法 (默认: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Initialization sanity check failed. E-Gold is shutting down.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>错误：无法创建交易，已解锁的钱包仅用于权益累积。</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
+        <translation>警告：发现无效的记录点。所显示的交易信息未必正确！请升级客户端或联系开发者。</translation>
+    </message>
+    <message>
+        <location line="-155"/>
+        <source>This help message</source>
+        <translation>本帮助信息
+</translation>
+    </message>
+    <message>
+        <location line="+93"/>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>钱包 %s 位于数据目录 %s 之外.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Cannot obtain a lock on data directory %s.  E-Gold is probably already running.</source>
+        <translation>无法从数据目录 %s 获得锁定.  E-Gold客户端可能已在运行中.</translation>
+    </message>
+    <message>
+        <location line="-96"/>
+        <source>E-Gold</source>
+        <translation>E-Gold</translation>
+    </message>
+    <message>
+        <location line="+137"/>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>无法绑定本机端口 %s  (返回错误消息 %d, %s)</translation>
+    </message>
+    <message>
+        <location line="-127"/>
+        <source>Connect through socks proxy</source>
+        <translation>通过socks代理连接</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>使用 -addnode, -seednode 和 -connect 选项时允许查询DNS</translation>
+    </message>
+    <message>
+        <location line="+119"/>
+        <source>Loading addresses...</source>
+        <translation>正在加载地址簿...</translation>
+    </message>
+    <message>
+        <location line="-14"/>
+        <source>Error loading blkindex.dat</source>
+        <translation>blkindex.dat 文件加载出错</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>wallet.dat 钱包文件加载出错：钱包损坏</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of E-Gold</source>
+        <translation>wallet.dat 钱包文件加载出错：需要新版本的客户端</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Wallet needed to be rewritten: restart E-Gold to complete</source>
+        <translation>需要重写钱包，重启客户端以完成该操作。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Error loading wallet.dat</source>
+        <translation>wallet.dat 钱包文件加载出错</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation>无效的代理地址：%s</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>-onlynet 指定的是未知网络：%s</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>被指定的是未知socks代理版本: %i</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>无法解析 -bind 端口地址: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation>无法解析 -externalip 地址: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="-25"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>非法金额 -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>Error: could not start node</source>
+        <translation>错误：无法启动节点</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Sending...</source>
+        <translation>正在发送</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Invalid amount</source>
+        <translation>无效金额</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Insufficient funds</source>
+        <translation>金额不足</translation>
+    </message>
+    <message>
+        <location line="-33"/>
+        <source>Loading block index...</source>
+        <translation>正在加载数据块索引...</translation>
+    </message>
+    <message>
+        <location line="-101"/>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>添加节点并与其保持连接</translation>
+    </message>
+    <message>
+        <location line="+119"/>
+        <source>Unable to bind to %s on this computer. E-Gold is probably already running.</source>
+        <translation>无法绑定到该计算机上的 %s. E-Gold客户端可能已在运行中。</translation>
+    </message>
+    <message>
+        <location line="-97"/>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>每kB交易所支付的手续费</translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>无效的数量。 -mininput=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Loading wallet...</source>
+        <translation>正在加载钱包...</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Cannot downgrade wallet</source>
+        <translation>无法降级钱包</translation>
+    </message>
+    <message>
+        <source>Cannot initialize keypool</source>
+        <translation type="obsolete">无法初始化密钥池。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Cannot write default address</source>
+        <translation>无法写入默认地址</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rescanning...</source>
+        <translation>正在重新扫描...</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Done loading</source>
+        <translation>加载完成</translation>
+    </message>
+    <message>
+        <location line="-164"/>
+        <source>To use the %s option</source>
+        <translation>使用 %s 选项</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Error</source>
+        <translation>错误</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation>您必须在配置文件中加入选项 rpcpassword :
  %s
 如果配置文件不存在，请新建，并将文件权限设置为仅允许文件所有者读取.</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="74"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>接受命令行和 JSON-RPC 命令
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="75"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>接受来自外部的连接 (缺省: 如果不带 -proxy or -connect 参数设置为1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="76"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>添加节点并与其保持连接</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="77"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>允许对-addnode, -seednode 和 -connect进行DNS查找</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>允许从指定的IP地址进行JSON-RPC连接</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="79"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>企图从一个损坏的wallet.dat恢复私钥。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="80"/>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>绑定到给定地址，IPV6使用[host]:port标记</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Block creation options:</source>
-        <translation>区块创建选项:</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="82"/>
-        <source>Cannot downgrade wallet</source>
-        <translation>不能对钱包降版本</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="83"/>
-        <source>Cannot initialize keypool</source>
-        <translation>不能初始化密钥池</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="84"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>无法解析 -bind 端口地址: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="85"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>无法解析 -externalip 地址: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="86"/>
-        <source>Cannot write default address</source>
-        <translation>无法写入默认地址</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="87"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>只能连接指定节点</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Connect through socks proxy</source>
-        <translation>通过SOCKS代理连接</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>连接到节点获得节点地址，并且断连</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="90"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>发现自己的IP地址(缺省:不带 -externalip 参数监听时设置为1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="91"/>
-        <source>Don&apos;t generate coins</source>
-        <translation>不产生货币</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="92"/>
-        <source>Done loading</source>
-        <translation>载入成功</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="93"/>
-        <source>Error loading blkindex.dat</source>
-        <translation>载入blkindex.dat错误</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="94"/>
-        <source>Error loading wallet.dat</source>
-        <translation>载入wallet.dat错误</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>载入wallet.dat错误：钱包损坏</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="96"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of E-Gold</source>
-        <translation>载入wallet.dat错误: 钱包需要更新版本</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="97"/>
-        <source>Error</source>
-        <translation>错误</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="98"/>
-        <source>Error: Transaction creation failed  </source>
-        <translation>错误：交易创建失败</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="99"/>
-        <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation>错误：钱包被锁定，不能创建交易</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="100"/>
-        <source>Error: could not start node</source>
-        <translation>错误：无法启动节点</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="101"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>监听端口失败。请使用 -listen=0 参数。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="102"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>为付款交易支付货币(每kb)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="103"/>
-        <source>Find peers using DNS lookup (default: 0)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="104"/>
-        <source>Find peers using internet relay chat (default: 1)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="105"/>
-        <source>Generate coins</source>
-        <translation>生成货币</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="106"/>
-        <source>Get help for a command</source>
-        <translation>获得某条命令的帮助
-</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="107"/>
-        <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
-        <translation>启动时检测多少个数据块(缺省：2500，0=所有)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="108"/>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>区块验证深度(0-6, 默认：1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="109"/>
-        <source>Importing blockchain data file.</source>
-        <translation>正在导入块链数据文件。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="110"/>
-        <source>Importing bootstrap blockchain data file.</source>
-        <translation>正在导入bootstrap块链数据文件。</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="111"/>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>从外部blk000?.dat文件导入区块</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="112"/>
-        <source>Insufficient funds</source>
-        <translation>资金不足</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="113"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>无效的代理地址：%s</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="114"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>无效的 -tor 地址: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="115"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>无效金额 -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="116"/>
-        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>无效金额 -reservebalance=&lt;amount&gt;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Invalid amount</source>
-        <translation>无效金额</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="118"/>
-        <source>List commands</source>
-        <translation>命令列表</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22708 or testnet: 12708)</source>
-        <translation>监听连接，&lt;端口&gt; (默认: 22708 or testnet: 12708)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="120"/>
-        <source>Loading addresses...</source>
-        <translation>载入地址...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Loading block index...</source>
-        <translation>正在加载数据块索引...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="122"/>
-        <source>Loading wallet...</source>
-        <translation>载入钱包...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="123"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>最大连接数 &lt;n&gt; （缺省: 125）</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节(缺省：5000)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>每个连接的最大发送缓存，&lt;n&gt;*1000 字节(缺省：1000)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="126"/>
-        <source>E-Gold version</source>
-        <translation>E-Gold版本</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="127"/>
-        <source>E-Gold</source>
-        <translation>E-Gold</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="128"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>仅连接至指定网络的节点&lt;net&gt;(IPv4, IPv6 或者 Tor)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="129"/>
-        <source>Options:</source>
-        <translation>选项:</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="130"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>输出额外调试信息，包含所有其他-debug* options</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="131"/>
-        <source>Output extra network debugging information</source>
-        <translation>输出额外网络调试信息</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="132"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC连接的密码</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="133"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>预计带时间的调试输出</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="134"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>重新扫描块链，寻找遗失的钱包交易</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Rescanning...</source>
-        <translation>正在重新扫描...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>在后台运行并接受命令</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL选项: (请看Bitcoin威客的SSL安装指令)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="138"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>选择SOCKS代理版本(4-5, default: 5)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="139"/>
-        <source>Send command to -server or E-Goldd</source>
-        <translation>发送命令 -server or E-Goldd</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="140"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>发送命令给节点： &lt;ip&gt; (默认: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="141"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>发送trace/debug信息到控制台而非debug.log文件</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="142"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>发送trace/debug信息到调试器</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="143"/>
-        <source>Sending...</source>
-        <translation>正在发送...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="144"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>服务器证书文件(默认:server.cert)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="145"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>服务器私钥文件(默认: server.pem)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="146"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>设置数据库缓冲区大小 (缺省: 25MB)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="147"/>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>设置数据库文件大小 (缺省: 25MB)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="148"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>设置密钥池大小 &lt;n&gt; (默认: 100)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="149"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>设置最大区块字节数(默认: 250000)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="150"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>设置最小区块字节数(默认: 0)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="151"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>客户端启动时压缩debug.log文件(缺省：no-debug模式时为1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="152"/>
-        <source>Specify configuration file (default: E-Gold.conf)</source>
-        <translation>指定配置文件(默认：E-Gold.conf)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="153"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>设置连接超时时间(缺省：5000毫秒)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="154"/>
-        <source>Specify data directory</source>
-        <translation>指定数据目录</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="155"/>
-        <source>Specify pid file (default: E-Goldd.pid)</source>
-        <translation>指定PID文件(默认: E-Goldd.pid)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="156"/>
-        <source>Specify your own public address</source>
-        <translation>指定你自己的公共地址</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="157"/>
-        <source>This help message</source>
-        <translation>帮助信息</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="158"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>断连不诚实节点(默认：100)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="159"/>
-        <source>To use the %s option</source>
-        <translation>使用 % 选项</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="160"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>无法绑定本机端口 %s  (返回错误消息 %d, %s)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="161"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>无法签名检查点，错误的错误点HASH?</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="162"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>被指定的是未知socks代理版本: %i</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="163"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>-onlynet 指定的是未知网络：%s</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="164"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>升级钱包到最新格式</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="165"/>
-        <source>Usage:</source>
-        <translation>用法:</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="166"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>为 JSON-RPC 连接使用 OpenSSL (https) 连接</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="167"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>使用UPnp映射监听端口(缺省: 0)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="168"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>使用UPnp映射监听端口(缺省:监听状态为1)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="169"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>使用代理访问 tor 隐藏服务(默认：和-proxy一样)</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="170"/>
-        <source>Use the test network</source>
-        <translation>使用测试网络</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="171"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation> JSON-RPC连接的用户名</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="172"/>
-        <source>Verifying database integrity...</source>
-        <translation>验证数据库完整性...</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="173"/>
-        <source>Wallet needed to be rewritten: restart E-Gold to complete</source>
-        <translation>钱包需要重写: 重启E-Gold继续</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="174"/>
-        <source>Warning: Disk space is low!</source>
-        <translation>警告: 磁盘空间不足!</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="175"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>警告：该软件版本已过时，请升级！</translation>
-    </message>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="176"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>钱包wallet.dat文件损失，恢复失败</translation>
     </message>
 </context>
 </TS>

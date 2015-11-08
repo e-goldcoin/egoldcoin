@@ -1,0 +1,1 @@
+直接运行 make 可编译出libleveldb.a, 但不能够编译出libmemenv.a

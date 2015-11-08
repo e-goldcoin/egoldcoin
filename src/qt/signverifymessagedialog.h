@@ -25,7 +25,6 @@ public:
 
     void showTab_SM(bool fShow);
     void showTab_VM(bool fShow);
-    void paintEvent(QPaintEvent* evt);
 
 protected:
     bool eventFilter(QObject *object, QEvent *event);

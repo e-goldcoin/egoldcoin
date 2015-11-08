@@ -42,7 +42,7 @@ static bool ipcScanCmd(int argc, char *argv[], bool fRelay)
     bool fSent = false;
     for (int i = 1; i < argc; i++)
     {
-        if (boost::algorithm::istarts_with(argv[i], "bitcoin:"))
+        if (boost::algorithm::istarts_with(argv[i], "e-gold:"))
         {
             const char *strURI = argv[i];
             try {
@@ -75,7 +75,7 @@ void ipcScanRelay(int argc, char *argv[])
 static void ipcThread(void* pArg)
 {
     // Make this thread recognisable as the GUI-IPC thread
-    RenameThread("bitcoin-gui-ipc");
+    RenameThread("E-Gold-gui-ipc");
 	
     try
     {
@@ -98,13 +98,13 @@ static void ipcThread2(void* pArg)
     size_t nSize = 0;
     unsigned int nPriority = 0;
 
-    while(true)
+    while (true)
     {
         ptime d = boost::posix_time::microsec_clock::universal_time() + millisec(100);
         if (mq->timed_receive(&buffer, sizeof(buffer), nSize, nPriority, d))
         {
             uiInterface.ThreadSafeHandleURI(std::string(buffer, nSize));
-            Sleep(1000);
+            MilliSleep(1000);
         }
 
         if (fShutdown)

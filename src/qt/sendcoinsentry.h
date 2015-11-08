@@ -32,7 +32,6 @@ public:
     QWidget *setupTabChain(QWidget *prev);
 
     void setFocus();
-    void paintEvent(QPaintEvent* evt);
 
 public slots:
     void setRemoveEnabled(bool enabled);
@@ -40,7 +39,7 @@ public slots:
 
 signals:
     void removeEntry(SendCoinsEntry *entry);
-	void payAmountChanged();
+    void payAmountChanged();
 
 private slots:
     void on_deleteButton_clicked();

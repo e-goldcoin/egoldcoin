@@ -12,6 +12,7 @@
         <file alias="connect_4">res/icons/connect4_16.png</file>
         <file alias="transaction_0">res/icons/transaction0.png</file>
         <file alias="transaction_confirmed">res/icons/transaction2.png</file>
+        <file alias="transaction_conflicted">res/icons/transaction_conflicted.png</file>
         <file alias="transaction_1">res/icons/clock1.png</file>
         <file alias="transaction_2">res/icons/clock2.png</file>
         <file alias="transaction_3">res/icons/clock3.png</file>
@@ -29,7 +30,6 @@
         <file alias="overview">res/icons/overview.png</file>
         <file alias="export">res/icons/export.png</file>
         <file alias="synced">res/icons/synced.png</file>
-        <file alias="notsynced">res/icons/notsynced.png</file>
         <file alias="remove">res/icons/remove.png</file>
         <file alias="tx_mined">res/icons/tx_mined.png</file>
         <file alias="tx_input">res/icons/tx_input.png</file>
@@ -41,11 +41,12 @@
         <file alias="filesave">res/icons/filesave.png</file>
         <file alias="qrcode">res/icons/qrcode.png</file>
         <file alias="debugwindow">res/icons/debugwindow.png</file>
+        <file alias="staking_off">res/icons/staking_off.png</file>
+        <file alias="staking_on">res/icons/staking_on.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
         <file alias="splash">res/images/splash.png</file>
-        <file alias="backg">res/images/wallet.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="spinner-000">res/movies/spinner-000.png</file>
@@ -86,7 +87,9 @@
         <file alias="update_spinner">res/movies/update_spinner.mng</file>
     </qresource>
     <qresource prefix="/translations">
+        <file alias="de">locale/bitcoin_de.qm</file>
         <file alias="en">locale/bitcoin_en.qm</file>
         <file alias="zh_CN">locale/bitcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitcoin_zh_TW.qm</file>
     </qresource>
 </RCC>

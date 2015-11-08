@@ -40,7 +40,6 @@ public:
     void setModel(AddressTableModel *model);
     void setOptionsModel(OptionsModel *optionsModel);
     const QString &getReturnValue() const { return returnValue; }
-    void paintEvent(QPaintEvent* evt);
 
 public slots:
     void done(int retval);

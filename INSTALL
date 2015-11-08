@@ -4,6 +4,6 @@ See doc/readme-qt.rst for instructions on building E-Gold QT,
 the intended-for-end-users, nice-graphical-interface, reference
 implementation of E-Gold.
 
-See doc/build-*.txt for instructions on building E-Goldd,
+See doc/build-*.txt for instructions on building egdd (E-Gold Daemon),
 the intended-for-services, no-graphical-interface, reference
 implementation of E-Gold.

@@ -38,7 +38,6 @@ public:
         ThisYear,
         Range
     };
-    void paintEvent(QPaintEvent* evt);
 
 private:
     WalletModel *model;
@@ -66,6 +65,7 @@ private slots:
     void editLabel();
     void copyLabel();
     void copyAmount();
+    void copyTxID();
 
 signals:
     void doubleClicked(const QModelIndex&);

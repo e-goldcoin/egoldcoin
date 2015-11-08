@@ -4,6 +4,7 @@
 #include <QObject>
 #include <vector>
 #include <map>
+
 #include "allocators.h" /* for SecureString */
 
 class OptionsModel;
@@ -66,7 +67,6 @@ public:
     qint64 getStake() const;
     qint64 getUnconfirmedBalance() const;
     qint64 getImmatureBalance() const;
-    int getNumTransactions() const;
     EncryptionStatus getEncryptionStatus() const;
 
     // Check address for validity
@@ -116,13 +116,15 @@ public:
     };
 
     UnlockContext requestUnlock();
-   bool getPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const;
+
+    bool getPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const;
     void getOutputs(const std::vector<COutPoint>& vOutpoints, std::vector<COutput>& vOutputs);
     void listCoins(std::map<QString, std::vector<COutput> >& mapCoins) const;
     bool isLockedCoin(uint256 hash, unsigned int n) const;
     void lockCoin(COutPoint& output);
     void unlockCoin(COutPoint& output);
     void listLockedCoins(std::vector<COutPoint>& vOutpts);
+
 private:
     CWallet *wallet;
 
@@ -138,7 +140,6 @@ private:
     qint64 cachedStake;
     qint64 cachedUnconfirmedBalance;
     qint64 cachedImmatureBalance;
-    qint64 cachedNumTransactions;
     EncryptionStatus cachedEncryptionStatus;
     int cachedNumBlocks;
 
@@ -162,9 +163,6 @@ public slots:
 signals:
     // Signal that balance in wallet changed
     void balanceChanged(qint64 balance, qint64 stake, qint64 unconfirmedBalance, qint64 immatureBalance);
-
-    // Number of transactions in wallet changed
-    void numTransactionsChanged(int count);
 
     // Encryption status of wallet changed
     void encryptionStatusChanged(int status);

@@ -32,7 +32,6 @@ public:
 
     void pasteEntry(const SendCoinsRecipient &rv);
     bool handleURI(const QString &uri);
-    void paintEvent(QPaintEvent* evt);
 
 public slots:
     void clear();
@@ -51,7 +50,7 @@ private slots:
     void on_sendButton_clicked();
     void removeEntry(SendCoinsEntry* entry);
     void updateDisplayUnit();
-	void coinControlFeatureChanged(bool);
+    void coinControlFeatureChanged(bool);
     void coinControlButtonClicked();
     void coinControlChangeChecked(int);
     void coinControlChangeEdited(const QString &);

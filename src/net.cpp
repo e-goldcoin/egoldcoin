@@ -1229,11 +1229,30 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"South America (São Paulo)", "54.94.161.254"},
-    {"EU (Ireland)", "54.76.224.149"},
-    {"Asia Pacific (Singapore)", "54.255.173.68"},
-    {"Asia Pacific (Tokyo)", "54.64.14.156"},
-    {"US East (N. Virginia)", "54.210.142.210"}
+    {"Seed1", "58.96.169.185"},
+    {"Seed2", "112.126.75.202"},
+    {"Seed3", "42.96.205.219"},
+    {"Seed4", "115.29.173.57"},
+    {"Seed5","52.7.207.121"},
+    {"Seed6","52.0.51.72"},
+    {"Seed7","52.26.21.79"},
+    {"Seed8","52.26.86.132"},
+    {"Seed9","52.27.8.98"},
+    {"Seed10","52.27.7.255"},
+    {"Seed11","52.26.178.59"},
+    {"Seed12","52.24.145.233"},
+    {"Seed13","52.25.177.65"},
+    {"Seed14","52.27.34.152"},
+    {"Seed15","47.88.18.65"},
+    {"Seed16","47.88.18.66"},
+    {"Seed17","182.92.129.204"},
+    {"Seed18","121.40.192.146"},
+    {"Seed19","112.74.14.162"},
+    {"Seed20","121.40.227.238"},
+    {"Seed21","121.41.96.70"},
+    {"Seed22","115.28.5.226"},
+    {"Seed23","115.28.83.160"},
+    {"Seed24","139.196.33.184"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
